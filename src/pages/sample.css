@@ -1,0 +1,392 @@
+.dashed-line {
+    margin-top: 5%;
+    border: 3px dashed #FFFFFF;
+    /* transform: rotate(-179.9deg); */
+  }
+  
+  h5{
+    color: #FF037D;
+  }
+  
+  .topimg
+    {
+      width: 100%;
+    }
+  
+  .hawkpara {
+    color: white;
+    font-size: 28px;
+    margin-right:5%;
+    text-align: justify;
+  
+  }
+  
+  .solo
+  {
+    font-size: 28px;
+  }
+  
+  
+  
+  .about0 {
+    position: relative;
+    margin-top: 3%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .about1 {
+    position: absolute;
+    margin-top: 2%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .about0 span{
+    font-family: 'Roboto';
+  }
+  
+  .about1 span{
+    font-family: 'Roboto';
+  }
+  
+  .about2 span{
+    font-family: 'Roboto';
+  }
+  
+  .about3 span{
+    font-family: 'Roboto';
+  }
+  
+  .about4 span{
+    font-family: 'Roboto';
+  }
+  
+  .about2 {
+    position: absolute;
+    margin-top: 6%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .about3 {
+    position: absolute;
+    margin-top: 10%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .about4 {
+    position: absolute;
+    margin-top: 14%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .prizeh
+  {
+    margin-top: 4%;
+    margin-left: 23.5%;
+  }
+  
+  .hawkimg {
+    margin-top: 300px;
+  }
+  
+  .structure {
+    margin-top: 21%;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+  }
+  
+  .pcontainer {
+    /* "]\color : "white", "font-size" : "20px", "marginTop" : "20px"}} */
+    /* margin-top: 3%; */
+    color: white
+  }
+  
+  .structureul {
+    margin-left: 5%;
+    margin-top: 3%;
+    color: white;
+    font-size: 28px;
+    margin-right:5%;
+  }
+  
+  .containerleft {
+    margin-left: 5%;
+  
+  }
+  
+  .registernowbutton
+    {
+      width:35%;
+      /* text-align: left; */
+      margin-left: 60%;
+      margin-top: -10%;
+    }
+  .generalrulesheading {
+    margin-top: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  
+    color: #01FDFE;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  
+  .generalrules {
+    margin-top: -1%;
+  }
+  
+  .abcde {
+    margin-left: 5%;
+  }
+  
+  
+  .contact {
+    margin-top: 5%;
+  }
+  
+  .contbot {
+    margin-bottom: 5%;
+  }
+  .notbold
+  {
+    font-weight: normal;
+    font-size: 32px;
+  }
+  .prize
+  {
+    margin-left: 38%;
+  }
+  .deskcont
+  {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 5%;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topimg
+    {
+      margin-top: 10%;
+      width: 100%;
+    }
+    .registernowbutton
+    {
+      width:60%;
+      /* text-align: left; */
+      margin-left: 40%;
+      margin-top: -10%;
+    }
+    .dashed-line {
+      margin-top: 5%;
+      border: 2px dashed #FFFFFF;
+      /* transform: rotate(-179.9deg); */
+    }
+    .hawkpara {
+      color: white;
+      font-size: 18px;
+    }
+  
+    .about0 {
+      position: relative;
+  
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+    .about1 {
+      position: absolute;
+      margin-top: 5%;
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+    .about2 {
+      position: absolute;
+      margin-top: 17%;
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+    .about3 {
+      position: absolute;
+      margin-top: 28%;
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+    .about4 {
+      position: absolute;
+      margin-top: 39%;
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+  
+    .structure {
+      margin-top: 55%;
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+    }
+  
+    .pcontainer {
+      /* "]\color : "white", "font-size" : "20px", "marginTop" : "20px"}} */
+      margin-top: 5%;
+      color: white
+    }
+  
+    .structureul {
+      margin-left: 5%;
+      margin-top: 3%;
+      color: white;
+      font-size: 18px;
+    }
+  
+    .containerleft {
+      margin-left: 5%;
+  
+    }
+  
+    .generalrulesheading {
+      margin-top: 50%;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 28px;
+      letter-spacing: 0.08em;
+  
+      color: #01FDFE;
+      margin-top: 5%;
+      margin-bottom: 2%;
+    }
+  
+    .generalrules {
+      margin-top: 0%;
+    }
+  
+    .abcde {
+      margin-left: 5%;
+    }
+  
+    .upperimage {
+      margin-top: -10%;
+    }
+  
+    .contact {
+      margin-top: 5%;
+    }
+  
+    .contbot {
+      margin-bottom: 5%;
+    }
+    .notbold
+    {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    .prize
+    {
+      margin-left: 38%;
+    }
+    .deskcont
+  {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 21px;
+    font-weight: normal;
+  }
+  }

@@ -20,8 +20,8 @@ const Hero = ({ reference, scrollToSection, next }) => {
         <h1 className="hero-txt" data-text="TECHN">
           TECHN
         </h1>
-        <h1 className="hero-txt" data-text="OVAT">
-          OVAT
+        <h1 className="hero-txt" data-text="OVATE">
+          OVATE
         </h1>
       </div>
 

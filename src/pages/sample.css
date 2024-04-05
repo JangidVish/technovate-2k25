@@ -431,3 +431,19 @@ h5{
     font-weight: normal;
   }
   }
+
+@media only screen and (max-width: 425px) {
+  .btn-register {
+    top: 100%;
+    right: 0;
+    padding: 10px 20px;
+  }
+
+  .dashed-line {
+    margin-top: 4rem;
+  }
+
+  .pcontainer {
+    margin-top: 0;
+  }
+}

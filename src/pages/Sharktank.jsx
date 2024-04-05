@@ -31,20 +31,13 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            PCCOER College is buzzing with excitement as it gears up to host its
-            very own rendition of the hit TV show "Shark Tank." As aspiring
-            entrepreneurs from across the campus prepare to pitch their
-            innovative ideas to a panel of esteemed judges, anticipation fills
-            the air. From groundbreaking tech startups to eco-friendly
-            initiatives, the stage is set for a diverse range of pitches that
-            promise to captivate and inspire. Students and faculty alike are
-            eager to witness the entrepreneurial spirit come to life, as budding
-            innovators showcase their passion, creativity, and business acumen.
-            With the opportunity to secure funding, mentorship, and support for
-            their ventures, participants are ready to dive headfirst into the
-            thrilling world of entrepreneurship. As the countdown begins,
-            excitement mounts, and all eyes turn to the PCCOER Shark Tank stage,
-            where dreams are poised to take flight.
+            The Technovate 2024 Hawk Race League will push all limits, combining
+            the best of real drone racing and ultimate pilot challenges. Watch
+            the drone pilots race high-speed drones in spectacular courses
+            across all dimensions. As our most significant season yet, the most
+            skilled practiced and disciplined pilots will aim to dominate the 2
+            rounds of racing through iconic obstacles sports arenas to be
+            crowned the Technovate 2k23 HAWK Race League Champion.
           </p>
         </div>
         <div>

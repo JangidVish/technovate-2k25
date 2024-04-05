@@ -23,10 +23,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /var/www/roborashtra-1
+            cd /var/www/technovate
             git pull
             echo done Pulling
             git status
             npm run build
             echo done building
-            pm2 restart roborashtra-1
+            pm2 restart technovate

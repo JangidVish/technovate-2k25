@@ -27,7 +27,7 @@
     z-index: 11;
 } 
 
-.video-model {
+.three-model .mobile {
     display: none;
 }
   
@@ -171,17 +171,25 @@
 
 @media only screen and (max-width: 425px) {
     .three-model {
+        margin-top: -4rem;
+        z-index: -1;
+    }
+
+    .three-model .web {
         display: none;
     }
-    .video-model {
+
+    .logo {
+        display: none;
+    }
+    .three-model .mobile {
         display: block;
-        margin-top: 10rem;
     }
 
     .text-bg{
         position: absolute;
         width: 100%;
-        top: 78%;
+        top: 61%;
         gap: 0;
         padding: 0 0rem;
     }
@@ -189,7 +197,7 @@
         font-size: 3rem;
     }
     .moto {
-        margin-top: -5rem;
+        margin-top: -12rem;
     }
     .moto h3 {
         font-size: 14px;
@@ -197,5 +205,13 @@
     .moto h3 span {
         font-size: 14px;
     }
+
+    .hero-txt:before {
+        transform: skew(67deg, 0) translate(-35%, 18%) scaleY(0.5);
+      }
+
+      .scroll-sec .arrow {
+        margin-top: -12rem;
+      }
 
 }

@@ -1,86 +1,124 @@
+.container {
+  position: relative;
+}
+
+.blobpagest {
+  display: inline-block;
+  filter: blur(300px);
+  z-index: -1;
+  position: absolute;
+  left: 0rem;
+  top: 100%;
+  transform: scale(1.7);
+}
+
+
 .dashed-line {
-    margin-top: 5%;
-    border: 3px dashed #FFFFFF;
-    /* transform: rotate(-179.9deg); */
-  }
-  
-  h5{
-    color: #FF037D;
-  }
-  
-  .topimg
-    {
-      width: 100%;
-    }
-  
-  .hawkpara {
-    color: white;
-    font-size: 28px;
-    margin-right:5%;
-    text-align: justify;
-  
-  }
-  
-  .solo
+  margin-top: 0%;
+  border: 3px dashed #FFFFFF;
+}
+
+h5{
+  color: #01FDFE;
+}
+
+.topimg
   {
-    font-size: 28px;
+    width: 100%;
   }
+
+.btn-register {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  z-index: 99;
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  padding: 20px 60px;
+  border-radius: 12px;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.btn-register:hover {
+  box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+}
+
+.register {
+  color: white;
+  font-size: 1.4rem;
+}
+  
+.hawkpara {
+  color: white;
+  font-size: 28px;
+  margin-right:5%;
+  text-align: justify;
+  font-family: "lato", sans-serif;
+  line-height: 35px;
+}
+  
+.solo
+{
+  font-size: 28px;
+}
   
   
   
-  .about0 {
-    position: relative;
-    margin-top: 3%;
+.about0 {
+  position: relative;
+  margin-top: 3%;
+  font-family: Mokoto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #01FDFE;
+}
   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 28px;
-    letter-spacing: 0.08em;
-  
-    color: #01FDFE;
-  }
-  
-  .about1 {
-    position: absolute;
-    margin-top: 2%;
-  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 28px;
-    letter-spacing: 0.08em;
-  
-    color: #01FDFE;
-  }
+.about1 {
+  position: absolute;
+  margin-top: 2%;
+  font-family: Mokoto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #01FDFE;
+}
   
   .about0 span{
-    font-family: 'Roboto';
+    font-family: Mokoto;
   }
   
   .about1 span{
-    font-family: 'Roboto';
+    font-family: Mokoto;
   }
   
   .about2 span{
-    font-family: 'Roboto';
+    font-family: Mokoto;
   }
   
   .about3 span{
-    font-family: 'Roboto';
+    font-family: Mokoto;
   }
   
   .about4 span{
-    font-family: 'Roboto';
+    font-family: Mokoto;
   }
   
   .about2 {
     position: absolute;
     margin-top: 6%;
   
-    font-family: 'Roboto';
+    font-family: Mokoto;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -94,7 +132,7 @@
     position: absolute;
     margin-top: 10%;
   
-    font-family: 'Roboto';
+    font-family: Mokoto;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -108,7 +146,7 @@
     position: absolute;
     margin-top: 14%;
   
-    font-family: 'Roboto';
+    font-family: Mokoto;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -120,8 +158,9 @@
   
   .prizeh
   {
-    margin-top: 4%;
-    margin-left: 23.5%;
+    margin-top: 5%;
+    text-wrap: nowrap;
+    margin-left: 23%;
   }
   
   .hawkimg {
@@ -129,9 +168,9 @@
   }
   
   .structure {
-    margin-top: 21%;
+    margin-top: 25%;
   
-    font-family: 'Roboto';
+    font-family: Mokoto;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -148,11 +187,13 @@
   }
   
   .structureul {
+    font-family: "lato", sans-serif;
     margin-left: 5%;
     margin-top: 3%;
     color: white;
     font-size: 28px;
     margin-right:5%;
+    line-height: 35px;
   }
   
   .containerleft {
@@ -169,7 +210,7 @@
     }
   .generalrulesheading {
     margin-top: 50%;
-    font-family: 'Roboto';
+    font-family: Mokoto;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -242,7 +283,7 @@
       position: relative;
   
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -256,7 +297,7 @@
       position: absolute;
       margin-top: 5%;
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -270,7 +311,7 @@
       position: absolute;
       margin-top: 17%;
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -284,7 +325,7 @@
       position: absolute;
       margin-top: 28%;
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -298,7 +339,7 @@
       position: absolute;
       margin-top: 39%;
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -312,7 +353,7 @@
     .structure {
       margin-top: 55%;
   
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;
@@ -342,7 +383,7 @@
   
     .generalrulesheading {
       margin-top: 50%;
-      font-family: 'Roboto';
+      font-family: Mokoto;
       font-style: normal;
       font-weight: 800;
       font-size: 21px;

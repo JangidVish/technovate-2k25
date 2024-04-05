@@ -56,8 +56,10 @@
 }
 
 .cards {
-    display: flex;
-    gap: 10rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -66,4 +68,20 @@
         flex-direction: column;
         gap: 10rem;
     }
+}
+
+@media only screen and (max-width: 425px) {
+    .heading {
+        margin-bottom: 3rem;
+    }
+    .heading div {
+        font-size: 3rem;
+        padding: 0;
+        text-wrap: nowrap;
+    }
+
+    .cards {
+        gap: 5rem;
+    }
+
 }

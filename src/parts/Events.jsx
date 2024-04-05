@@ -8,7 +8,9 @@ import rcCar from "../images/Events/rcCar1.png";
 import techSangam from "../images/Events/techsangam.png";
 import catiaWars from "../images/Events/catiaWars.png";
 import mun from "../images/Events/mun.png";
-import bgmi from "../images/Events/bgmi.png"
+import bgmi from "../images/Events/bgmi.png";
+import auction from "../images/Events/auction.png";
+import ideas from "../images/Events/ideas.png"
 import EventLCard from "../components/EventLCard";
 
 const Events = ({ reference }) => {
@@ -17,15 +19,7 @@ const Events = ({ reference }) => {
       <div className="heading">
         <div>Events</div>
       </div>
-      <div className="cards">
-        <EventLCard
-          name={"Sharktank"}
-          image={SharkTank}
-          content={
-            "Entrepreneurs pitch ideas to investors for funding and mentorship."
-          }
-          link={"/sharktank"}
-        />
+      <div className="cards">     
         <EventLCard
           name={"Tech Treasure Hunt"}
           image={Tth}
@@ -51,10 +45,18 @@ const Events = ({ reference }) => {
           link={"/thebrocode"}
         />
         <EventLCard
+          name={"Sharktank"}
+          image={SharkTank}
+          content={
+            "Entrepreneurs pitch ideas to investors for funding and mentorship."
+          }
+          link={"/sharktank"}
+        />
+        <EventLCard
           name={"Fast & Furious"}
           image={rcCar}
           content={
-            "Get ready for an electrifying adrenaline rush the Fast and Furious RC Car Race!"
+            "Get ready for an electrifying adrenaline rush, Speed demons race in Fast & Furious."
           }
           link={"/thebrocode"}
         />
@@ -83,6 +85,14 @@ const Events = ({ reference }) => {
           link={"/thebrocode"}
         />
         <EventLCard
+          name={"Innovative Ideas"}
+          image={ideas}
+          content={
+            "Revolutionize, disrupt, inspire: Where innovative ideas shape the future."
+          }
+          link={"/thebrocode"}
+        />
+        <EventLCard
           name={"BGMI-Valorant"}
           image={bgmi}
           content={
@@ -92,7 +102,7 @@ const Events = ({ reference }) => {
         />
         <EventLCard
           name={"IPL Auction"}
-          image={bgmi}
+          image={auction}
           content={
             "Bidding war, cricket stars, fortunes made: The IPL Auction spectacle."
           }

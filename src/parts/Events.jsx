@@ -42,7 +42,7 @@ const Events = ({ reference }) => {
           content={
             "Gear up for the ultimate skills showdown in Hire Or Fire!"
           }
-          link={"/thebrocode"}
+          link={"/hireorfire"}
         />
         <EventLCard
           name={"Sharktank"}

@@ -82,7 +82,7 @@ const Events = ({ reference }) => {
           content={
             "Debate, diplomacy, global issues: Model United Nations, shaping future leaders."
           }
-          link={"/thebrocode"}
+          link={"/mun"}
         />
         <EventLCard
           name={"Innovative Ideas"}
@@ -90,7 +90,7 @@ const Events = ({ reference }) => {
           content={
             "Revolutionize, disrupt, inspire: Where innovative ideas shape the future."
           }
-          link={"/thebrocode"}
+          link={"/innovative"}
         />
         <EventLCard
           name={"BGMI-Valorant"}
@@ -98,7 +98,7 @@ const Events = ({ reference }) => {
           content={
             "Play, compete, strategize, challenge, entertain: Dive into the world of games."
           }
-          link={"/thebrocode"}
+          link={"/bgmivalo"}
         />
         <EventLCard
           name={"IPL Auction"}
@@ -106,7 +106,7 @@ const Events = ({ reference }) => {
           content={
             "Bidding war, cricket stars, fortunes made: The IPL Auction spectacle."
           }
-          link={"/thebrocode"}
+          link={"/iplauction"}
         />
       </div>
     </div>

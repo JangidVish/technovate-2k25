@@ -7,6 +7,10 @@ import Hireorfire from "./pages/Hireorfire"
 import FastnFurious from "./pages/fastnfurious"
 import TechSangam from "./pages/TechSangam"
 import CatiaWars from "./pages/catiawars"
+import Mun from "./pages/Mun"
+import Innovative from "./pages/Innovative"
+import BgmiValo from "./pages/BgmiValo"
+import Ipl from "./pages/IplAuction"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./skeleton/main";
@@ -23,6 +27,10 @@ function App() {
         <Route exact path="/fastnfurious" element={<FastnFurious/>} ></Route>
         <Route exact path="/techsangam" element={<TechSangam/>} ></Route>
         <Route exact path="/catiawars" element={<CatiaWars/>} ></Route>
+        <Route exact path="/mun" element={<Mun/>} ></Route>
+        <Route exact path="/innovative" element={<Innovative/>} ></Route>
+        <Route exact path="/bgmivalo" element={<BgmiValo/>} ></Route>
+        <Route exact path="/iplauction" element={<Ipl/>} ></Route>
       </Routes>
     </BrowserRouter>
   );

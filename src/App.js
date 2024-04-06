@@ -4,6 +4,9 @@ import Sharktank from './pages/Sharktank';
 import Techtreasurehunt from "./pages/techtreasurehunt"
 import TheBroCode from "./pages/TheBroCode"
 import Hireorfire from "./pages/Hireorfire" 
+import FastnFurious from "./pages/fastnfurious"
+import TechSangam from "./pages/TechSangam"
+import CatiaWars from "./pages/catiawars"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./skeleton/main";
@@ -17,6 +20,9 @@ function App() {
         <Route exact path="/techtreasurehunt"  element={<Techtreasurehunt /> }></Route>
         <Route exact path="/thebrocode" element={<TheBroCode/>} ></Route>
         <Route exact path="/hireorfire" element={<Hireorfire/>} ></Route>
+        <Route exact path="/fastnfurious" element={<FastnFurious/>} ></Route>
+        <Route exact path="/techsangam" element={<TechSangam/>} ></Route>
+        <Route exact path="/catiawars" element={<CatiaWars/>} ></Route>
       </Routes>
     </BrowserRouter>
   );

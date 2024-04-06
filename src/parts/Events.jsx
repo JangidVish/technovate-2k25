@@ -58,7 +58,7 @@ const Events = ({ reference }) => {
           content={
             "Get ready for an electrifying adrenaline rush, Speed demons race in Fast & Furious."
           }
-          link={"/thebrocode"}
+          link={"/fastnfurious"}
         />
         <EventLCard
           name={"TECHसंगम"}
@@ -66,7 +66,7 @@ const Events = ({ reference }) => {
           content={
             "Solve puzzles, find clues, escape the room before time's up!"
           }
-          link={"/thebrocode"}
+          link={"/techsangam"}
         />
         <EventLCard
           name={"Catia Wars"}
@@ -74,7 +74,7 @@ const Events = ({ reference }) => {
           content={
             "Design prowess, engineering battles, ultimate CATIA War: Create, Compete, Conquer!"
           }
-          link={"/thebrocode"}
+          link={"/catiawars"}
         />
         <EventLCard
           name={"MUN"}

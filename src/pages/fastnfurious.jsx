@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import sharktank from "./images/sharktank.png";
+import fstnfurious from "./images/fastnfurious.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {
@@ -11,7 +11,7 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={sharktank} alt="" />
+        <img className="topimg" src={fstnfurious} alt="" />
         <a
           href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
           className="btn-register"
@@ -31,20 +31,17 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            The Shark Tank event is a flagship component of Technovate 2K24,
-            an annual event aimed at fostering innovation, entrepreneurship, and
-            collaboration among engineering students across Pune and
-            neighbouring cities. Technovate 2K24 provides a platform for
-            students from various colleges to showcase their creativity,
-            problem-solving skills, and entrepreneurial spirit.
+            Get ready for an electrifying adrenaline rush the
+            "Fast and Furious RC Car Race"! Calling all speed enthusiasts
+            and thrill-seekers to join us for a high-octane experience like no
+            other.
           </p>
         </div>
         <div>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              {" "}
-              --{" "}
+            Solo
             </span>
           </div>
           <div className="container about1">
@@ -63,7 +60,7 @@ function Sample() {
           <div className="container about3">
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              {" "}
+            {" "}
               --{" "}
             </span>
           </div>
@@ -71,7 +68,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <span className="notbold">
               <span style={{ color: "white" }}>1st </span>
-              <span style={{ color: "#563380" }}>--</span>
+              <span style={{ color: "#563380" }}> --</span>
             </span>
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
@@ -80,7 +77,7 @@ function Sample() {
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>3rd </span>
-                <span style={{ color: "#563380" }}>--</span>
+                <span style={{ color: "#563380" }}> --</span>
               </h6>
             </h6>
           </div>
@@ -98,8 +95,24 @@ function Sample() {
         <div className="generalrules">
           <h3 className="generalrulesheading">GENERAL RULES :</h3>
           <ul className="structureul">
-          {" "}
-              --{" "}
+            <li>
+            This event will be for whole day with some short breaks.
+            </li>
+            <li>
+            There will be five RC cars.
+            </li>
+            <li>
+            Each car will be given to individual for race with other individuals.
+            </li>
+            <li>
+            The Participant should complete 3 laps of track (duration will be of 15-20 min).
+            </li>
+            <li>
+            Race will take place between these five participants and the winner will be awarded with 'goodies'.
+            </li>
+            <li>
+            In case of any damage of car charges will be applied of rupees 500/-
+            </li>
           </ul>
         </div>
         <div className="container contact" style={{ color: "yellow" }}>
@@ -107,12 +120,10 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-                {" "}
-                --{" "}
+              - --
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                {" "}
-                --{" "}
+                - --
               </h6>
             </span>
           </div>

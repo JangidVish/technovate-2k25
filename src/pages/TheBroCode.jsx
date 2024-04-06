@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import brocode from "./brocode.png";
+import brocode from "./images/brocode.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {

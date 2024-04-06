@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import hirefire from "./hirefire.png";
+import hirefire from "./images/hirefire.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {
@@ -34,7 +34,7 @@ function Sample() {
             Gear up for the ultimate skills showcase in Hire Or Fire! Test your prowess in 
             technical quizzes, problem-solving assessments, coding challenges, and 
             interview rounds. Show off your skills as a Computer Engineer. This Competition 
-            will be held in 4 rounds,
+            will be held in 4 rounds
           </p>
         </div>
         <div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import sharktank from "./images/sharktank.png";
+import catiawars from "./images/catiawars.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {
@@ -11,7 +11,7 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={sharktank} alt="" />
+        <img className="topimg" src={catiawars} alt="" />
         <a
           href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
           className="btn-register"
@@ -31,20 +31,16 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            The Shark Tank event is a flagship component of Technovate 2K24,
-            an annual event aimed at fostering innovation, entrepreneurship, and
-            collaboration among engineering students across Pune and
-            neighbouring cities. Technovate 2K24 provides a platform for
-            students from various colleges to showcase their creativity,
-            problem-solving skills, and entrepreneurial spirit.
+            The Ultimate 3D Modelling challenge. Modelling is 
+            the base of product development. Catia is the reputed software for 
+            modelling ,assembly, drafting etc.
           </p>
         </div>
         <div>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              {" "}
-              --{" "}
+              Solo
             </span>
           </div>
           <div className="container about1">
@@ -56,14 +52,13 @@ function Sample() {
           <div className="container about2">
             <span style={{ color: "FDC32D" }}>TIME DURATION : </span>
             <span className="notbold" style={{ color: "white" }}>
-              {" "}
-              --{" "}
+              --
             </span>
           </div>
           <div className="container about3">
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              {" "}
+            {" "}
               --{" "}
             </span>
           </div>
@@ -71,12 +66,12 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <span className="notbold">
               <span style={{ color: "white" }}>1st </span>
-              <span style={{ color: "#563380" }}>--</span>
+              <span style={{ color: "#563380" }}> --</span>
             </span>
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}>--</span>
+                <span style={{ color: "#563380" }}> --</span>
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>3rd </span>
@@ -91,15 +86,36 @@ function Sample() {
         <div>
           <h3 className="structure">STRUCTURE :</h3>
           <ul className="structureul">
-          {" "}
-              --{" "}
+            --
           </ul>
         </div>
         <div className="generalrules">
           <h3 className="generalrulesheading">GENERAL RULES :</h3>
           <ul className="structureul">
-          {" "}
-              --{" "}
+            <li>
+            The provided model or assembly should be completed within the given time.
+            </li>
+            <li>
+            The model should be well constrained.
+            </li>
+            <li>
+            The geometry of each part should be clearly defined.
+            </li>
+            <li>
+            Individual participation is must.
+            </li>
+            <li>
+            The participant should be capable enough to make changes if asked by the judges.
+            </li>
+            <li>
+            Wear a formal and decent attire.
+            </li>
+            <li>
+            Awards: Recognition for outstanding delegates.
+            </li>
+            <li>
+            Always check the event's specific rules for details.
+            </li>
           </ul>
         </div>
         <div className="container contact" style={{ color: "yellow" }}>
@@ -107,12 +123,10 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-                {" "}
-                --{" "}
+              - --
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                {" "}
-                --{" "}
+                - --
               </h6>
             </span>
           </div>

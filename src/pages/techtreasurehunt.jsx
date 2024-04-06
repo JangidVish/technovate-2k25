@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import hawkmore_img from "./sharktankbg.png";
+import hawkmore_img from "./images/sharktank.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {

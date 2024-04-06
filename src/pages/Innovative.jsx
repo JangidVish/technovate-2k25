@@ -24,7 +24,7 @@ function Sample() {
       </div>
       <div className="dashed-line"></div>
       {/* <div></div> */}
-      <div>
+      <div className="about0">
         NO Rulebook found!
       </div>
     </>

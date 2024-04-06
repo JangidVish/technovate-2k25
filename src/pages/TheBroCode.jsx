@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import hawkmore_img from "./sharktankbg.png";
+import brocode from "./brocode.png";
 import blobPages from "../images/blob1.svg";
 
 function Sample() {
@@ -11,7 +11,7 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={hawkmore_img} alt="" />
+        <img className="topimg" src={brocode} alt="" />
         <a
           href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
           className="btn-register"
@@ -31,26 +31,22 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            The Technovate 2024 Hawk Race League will push all limits, combining
-            the best of real drone racing and ultimate pilot challenges. Watch
-            the drone pilots race high-speed drones in spectacular courses
-            across all dimensions. As our most significant season yet, the most
-            skilled practiced and disciplined pilots will aim to dominate the 2
-            rounds of racing through iconic obstacles sports arenas to be
-            crowned the Technovate 2k23 HAWK Race League Champion.
+          Bro Code is a technical event that tests the knowledge, aptitude, and coding skills of
+          participants in a team of two. The event is divided in 3 rounds. Top performers of each round
+          will qualify for the next rounds.
           </p>
         </div>
         <div>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              Solo
+              Duo
             </span>
           </div>
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              250/- Per Drone
+              100/- Per Team
             </span>
           </div>
           <div className="container about2">
@@ -63,7 +59,8 @@ function Sample() {
           <div className="container about3">
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              Open Gym, PCCOER
+            {" "}
+              --{" "}
             </span>
           </div>
           <div className="container about4">
@@ -75,11 +72,11 @@ function Sample() {
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}> Rs 3000/-</span>
+                <span style={{ color: "#563380" }}> Rs 4000/-</span>
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>3rd </span>
-                <span style={{ color: "#563380" }}> Rs 2000/-</span>
+                <span style={{ color: "#563380" }}> Rs 3000/-</span>
               </h6>
             </h6>
           </div>
@@ -91,63 +88,51 @@ function Sample() {
           <h3 className="structure">STRUCTURE :</h3>
           <ul className="structureul">
             <li>
-              The 1st and 2nd Round consists of still obstacles. Complexity will
-              be more for the 2nd Round.
+              Round 1:
+              <ol className="abcde" type="i">
+                <li>The questions will test the basic general knowledge about trending topics.</li>
+                <li>The teams have to be quick and accurate in answering the questions.</li>
+              </ol>
             </li>
+
             <li>
-              The Pilots have to pass the drones within less duration through
-              obstacles. In case of any tie breakers one more round will be
-              conducted.
+              Round 2:
+              <ol className="abcde" type="i">
+                <li>The teams will be given a set of tasks to be performed to get the desired result.</li>
+                <li>Based on this, teams will be selected for the last round.</li>
+              </ol>
             </li>
+
             <li>
-              In the end, the first 3 Pilots/ Drones completing challenges in
-              less time will be Winner and Runner ups and rewarded with Prize
-              money.
+              Round 3:
+              <ol className="abcde" type="i">
+                <li> This is the coding round with a twist.</li>
+                <li>The teams will be given a problem statement to solve.</li>
+                <li>They will have to use their coding skills to develop a solution.</li>
+                <li>
+                  The twist will be revealed on the spot and the teams will have to incorporate it into
+                  their solution. The top three teams with the best solutions will be declared the
+                  winners.
+                </li>
+              </ol>
             </li>
-            <li>Every Participant will receive certificates.</li>
           </ul>
         </div>
         <div className="generalrules">
           <h3 className="generalrulesheading">GENERAL RULES :</h3>
           <ul className="structureul">
             <li>
-              Pilots must show Fail-Safe and Arming/Disarm Working at
-              Registration Desk
+            The use of mobile phones and the internet is strictly prohibited.
             </li>
             <li>
-              Drone Specs:
-              <ol className="abcde" style={{ listStyleType: "lower-alpha" }}>
-                <li>Up to 6-inch props.</li>
-                <li>6” max frame size.</li>
-                <li>2, 3, or 4 blade max.</li>
-                <li>Any material for props but not Carbon Fiber.</li>
-                <li>No Weight Limit.</li>
-              </ol>
-            </li>
-            <li>Pilots will carry a minimum of 3 batteries.</li>
-            <li>
-              Pilots will carry their own battery chargers, charging points
-              would be provided.
+              The teams found using any unfair means will be immediately disqualified.
             </li>
             <li>
-              Pilots should bring their own soldering and other materials. All
-              frames must pass a safety and airworthiness inspection. Once the
-              airframe has been checked and approved, it must not be modified or
-              changed, or it will need to be re-inspected.
+              The decision taken by the organisers will be final and binding.
             </li>
             <li>
-              Any inappropriate behavior by the pilot towards the
-              volunteers/organizers/other pilots will lead to immediate
-              disqualification from the event.
-            </li>
-            <li>
-              Students should refrain from abusive language, obscene displays
-              during the competitions, if one fails to do so they will be
-              disqualified.
-            </li>
-            <li>
-              Students must carry their ID cards of their respected
-              institutes/college.
+              The teams must maintain decorum and not exhibit any offensive behaviour. The team
+              will be disqualified if they exhibit any offensive demeanour
             </li>
           </ul>
         </div>
@@ -156,10 +141,10 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-                Aditya Deshmukh : 8237125133
+              Ishan Honmode : 77449 93653
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                Shreya Kangle : 7498784872
+                Pushkar Sarda : 86698 02202
               </h6>
             </span>
           </div>

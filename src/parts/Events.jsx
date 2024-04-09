@@ -69,10 +69,10 @@ const Events = ({ reference }) => {
           link={"/techsangam"}
         />
         <EventLCard
-          name={"Catia Wars"}
+          name={"Cad-O-Create"}
           image={catiaWars}
           content={
-            "Design prowess, engineering battles, ultimate CATIA War: Create, Compete, Conquer!"
+            "Design prowess, engineering battles, ultimate Cad-O-Create battle: Create, Compete, Conquer!"
           }
           link={"/catiawars"}
         />

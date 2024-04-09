@@ -15,6 +15,8 @@ function Sample() {
         <a
           href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
           className="btn-register"
+          target="_blank"
+          rel="noreferrer"
         >
           <div className="register">Register Now</div>
         </a>
@@ -64,12 +66,12 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <span className="notbold">
               <span style={{ color: "white" }}>Winner </span>
-              <span style={{ color: "#563380" }}> 2000 /-</span>
+              <span style={{ color: "#563380" }}> Rs 2000 /-</span>
             </span>
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>	Runner-Up </span>
-                <span style={{ color: "#563380" }}> 1000 /-</span>
+                <span style={{ color: "#563380" }}> Rs 1000 /-</span>
               </h6>
             </h6>
           </div>

@@ -15,6 +15,8 @@ function Sample() {
         <a
           href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
           className="btn-register"
+          target="_blank"
+          rel="noreferrer"
         >
           <div className="register">Register Now</div>
         </a>

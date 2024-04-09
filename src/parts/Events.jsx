@@ -10,7 +10,6 @@ import catiaWars from "../images/Events/catiaWars.png";
 import mun from "../images/Events/mun.png";
 import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/auction.png";
-import ideas from "../images/Events/ideas.png"
 import EventLCard from "../components/EventLCard";
 
 const Events = ({ reference }) => {
@@ -83,14 +82,6 @@ const Events = ({ reference }) => {
             "Debate, diplomacy, global issues: Model United Nations, shaping future leaders."
           }
           link={"/mun"}
-        />
-        <EventLCard
-          name={"Innovative Ideas"}
-          image={ideas}
-          content={
-            "Revolutionize, disrupt, inspire: Where innovative ideas shape the future."
-          }
-          link={"/innovative"}
         />
         <EventLCard
           name={"BGMI-Valorant"}

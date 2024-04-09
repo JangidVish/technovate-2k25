@@ -69,7 +69,7 @@ function Sample() {
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>	Runner-Up </span>
-                <span style={{ color: "#563380" }}> 2000 /-</span>
+                <span style={{ color: "#563380" }}> 1000 /-</span>
               </h6>
             </h6>
           </div>

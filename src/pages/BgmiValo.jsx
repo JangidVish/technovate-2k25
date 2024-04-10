@@ -13,7 +13,7 @@ function Sample() {
       <div className="container upperimage">
         <img className="topimg" src={bgmi} alt="" />
         <a
-          href="https://konfhub.com/checkout/technovate2024?ticketId=15183"
+          href="https://konfhub.com/technovate2024#tickets"
           className="btn-register"
           target="_blank"
           rel="noreferrer"

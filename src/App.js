@@ -10,9 +10,9 @@ import CatiaWars from "./pages/catiawars"
 import Mun from "./pages/Mun"
 import BgmiValo from "./pages/BgmiValo"
 import Ipl from "./pages/IplAuction"
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./skeleton/main";
+import ScrollbarCarousel from "./parts/ScrolbarCarousel";
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
         <Route exact path="/mun" element={<Mun/>} ></Route>
         <Route exact path="/bgmivalo" element={<BgmiValo/>} ></Route>
         <Route exact path="/iplauction" element={<Ipl/>} ></Route>
+        <Route exact path="/scroll" element={<ScrollbarCarousel/>} ></Route>
       </Routes>
     </BrowserRouter>
   );

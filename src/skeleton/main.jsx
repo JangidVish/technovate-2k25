@@ -4,6 +4,8 @@ import Hero from "../parts/Hero";
 import Navbar from "../components/Navbar";
 import About from "../parts/About"
 import Events from "../parts/Events";
+import Footer from "../parts/Footer";
+import ScrolbarCarousel from "../parts/ScrolbarCarousel"
 
 const Main = () => {
 
@@ -32,6 +34,8 @@ const Main = () => {
         next={team}
       />
       <Events reference={events} />
+      <ScrolbarCarousel/>
+      <Footer/>
     </>
     
   )

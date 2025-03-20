@@ -33,40 +33,24 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            Get ready for an electrifying adrenaline rush the
-            "Fast and Furious RC Car Race"! Calling all speed enthusiasts
-            and thrill-seekers to join us for a high-octane experience like no
-            other.
+          Error404 is an exciting debugging challenge where participants dive into faulty code, identify errors, and fix them across multiple rounds. With increasing difficulty at each stage, this competition tests coding skills, logical thinking, and efficiency under pressure.
           </p>
         </div>
         <div>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-            Solo
+            2 to 3 per team
             </span>
           </div>
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              50/- Per Person
+              49/- Per Team
             </span>
           </div>
-          <div className="container about2">
-            <span style={{ color: "FDC32D" }}>TIME DURATION : </span>
-            <span className="notbold" style={{ color: "white" }}>
-              {" "}
-              --{" "}
-            </span>
-          </div>
-          <div className="container about3">
-            <span style={{ color: "FDC32D" }}>VENUE : </span>
-            <span className="notbold" style={{ color: "white" }}>
-            {" "}
-              --{" "}
-            </span>
-          </div>
-          <div className="container about4">
+
+          {/* <div className="container about4">
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <span className="notbold">
               <span style={{ color: "white" }}>1st </span>
@@ -82,22 +66,14 @@ function Sample() {
                 <span style={{ color: "#563380" }}> --</span>
               </h6>
             </h6>
-          </div>
-          <br></br>
-          <br></br>
-          <br></br>
+          </div> */}
         </div>
-        <div>
-          <h3 className="structure">STRUCTURE :</h3>
-          <ul className="structureul">
-          {" "}
-              --{" "}
-          </ul>
-        </div>
+        <br />
+        <br />
         <div className="generalrules">
-          <h3 className="generalrulesheading">GENERAL RULES :</h3>
+          <h3 className="generalrulesheading"></h3>
           <ul className="structureul">
-            <li>
+            {/* <li>
             This event will be for whole day with some short breaks.
             </li>
             <li>
@@ -114,7 +90,7 @@ function Sample() {
             </li>
             <li>
             In case of any damage of car charges will be applied of rupees 500/-
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="container contact" style={{ color: "yellow" }}>
@@ -122,11 +98,11 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              - --
+              7620258694
               </h6>
-              <h6 className="notbold deskcont" style={{ color: "white" }}>
+              {/* <h6 className="notbold deskcont" style={{ color: "white" }}>
                 - --
-              </h6>
+              </h6> */}
             </span>
           </div>
         </div>

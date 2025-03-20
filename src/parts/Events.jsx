@@ -1,15 +1,15 @@
 import React from "react";
 import "./Events.css";
-import SharkTank from "../images/Events/shark.png";
+import SharkTank from "../images/Events/solveX.jpg";
 import Tth from "../images/Events/tth.png";
 import brocode from "../images/Events/brocode.png";
-import hireFire from "../images/Events/dragon.png";
-import rcCar from "../images/Events/rcCar1.png";
-import techSangam from "../images/Events/techsangam.png";
-import catiaWars from "../images/Events/catiaWars.png";
-import mun from "../images/Events/mun.png";
+import hireFire from "../images/Events/iplAuction.jpg";
+import rcCar from "../images/Events/error404.jpg";
+// import techSangam from "../images/Events/techsangam.png";
+// import catiaWars from "../images/Events/catiaWars.png";
+import mun from "../images/Events/cad-o-create.jpg";
 import bgmi from "../images/Events/bgmi.png";
-import auction from "../images/Events/auction.png";
+import auction from "../images/Events/rc-car.jpg";
 import EventLCard from "../components/EventLCard";
 
 const Events = ({ reference }) => {
@@ -20,71 +20,32 @@ const Events = ({ reference }) => {
       </div>
       <div className="cards">     
         <EventLCard
-          name={"Tech Treasure Hunt"}
+          name={"Geek it out"}
           image={Tth}
           content={
-            "Seek clues, unravel mysteries, and find the hidden treasure trove."
+            "Showcase your coding, problem-solving, and debating skills in this thrilling 3-round competition! "
           }
           link={"/techtreasurehunt"}
         />
         <EventLCard
-          name={"The Bro Code"}
+          name={"Bro Code"}
           image={brocode}
           content={
-            "Code, debug, collaborate, complete: Bro Code, where champions emerge!."
+            "A thrilling coding battle for teams of two! "
           }
+          
           link={"/thebrocode"}
         />
         <EventLCard
-          name={"Hire or Fire"}
+          name={"Battle Of the Bids"}
           image={hireFire}
           content={
-            "Gear up for the ultimate skills showdown in Hire Or Fire!"
+            "Quiz, strategize, bid, build, compete: Dive into the ultimate IPL challenge."
           }
           link={"/hireorfire"}
         />
-        <EventLCard
-          name={"Sharktank"}
-          image={SharkTank}
-          content={
-            "Entrepreneurs pitch ideas to investors for funding and mentorship."
-          }
-          link={"/sharktank"}
-        />
-        <EventLCard
-          name={"Fast & Furious"}
-          image={rcCar}
-          content={
-            "Get ready for an electrifying adrenaline rush, Speed demons race in Fast & Furious."
-          }
-          link={"/fastnfurious"}
-        />
-        <EventLCard
-          name={"TECHसंगम"}
-          image={techSangam}
-          content={
-            "Solve puzzles, find clues, escape the room before time's up!"
-          }
-          link={"/techsangam"}
-        />
-        <EventLCard
-          name={"Cad-O-Create"}
-          image={catiaWars}
-          content={
-            "Design prowess, engineering battles, ultimate Cad-O-Create battle: Create, Compete, Conquer!"
-          }
-          link={"/catiawars"}
-        />
-        <EventLCard
-          name={"MUN"}
-          image={mun}
-          content={
-            "Debate, diplomacy, global issues: Model United Nations, shaping future leaders."
-          }
-          link={"/mun"}
-        />
-        <EventLCard
-          name={"BGMI-Valorant"}
+          <EventLCard
+          name={"Valorant"}
           image={bgmi}
           content={
             "Play, compete, strategize, challenge, entertain: Dive into the world of games."
@@ -92,12 +53,69 @@ const Events = ({ reference }) => {
           link={"/bgmivalo"}
         />
         <EventLCard
-          name={"IPL Auction"}
+          name={"SolveX"}
+          image={SharkTank}
+          content={
+            "Ideate, analyze, create, innovate, present: Dive into the world of problem-solving."
+          }
+          link={"/sharktank"}
+        />
+        <EventLCard
+          name={"ERROR 404"}
+          image={rcCar}
+          content={
+            "Debug, solve, excel—feel the thrill of fixing code under pressure! Speed demons, race in Fast & Furious!"
+          }
+          link={"/fastnfurious"}
+        />
+        {/* <EventLCard
+          name={"Bridging Minds"}
+          image={techSangam}
+          content={
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+          link={"/techsangam"}
+        />
+        <EventLCard
+          name={"PUBG domination"}
+          image={catiaWars}
+          content={
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+          link={"/catiawars"}
+        /> */}
+        <EventLCard
+          name={"Cad-O Create "}
+          image={mun}
+          content={
+            "Design, innovate, model, create, deliver: Craft efficient CAD solutions in just 1.5 hours!"
+          }
+          link={"/mun"}
+        />
+      
+        <EventLCard
+          name={"RC Challenge"}
           image={auction}
           content={
-            "Bidding war, cricket stars, fortunes made: The IPL Auction spectacle."
+            "Race, maneuver, overcome, accelerate, conquer: Master the track with your RC skills!"
           }
-          link={"/iplauction"}
+          link={"/sharktank"}
+        />
+        <EventLCard
+          name={"Electrothon"}
+          image={auction}
+          content={
+            "An exciting electronics marathon with four stages and a points-based system!Test your electronics skills—debug, design, and compete!"
+          }
+          link={"/"}
+        />
+        <EventLCard
+          name={"Autoexpo"}
+          image={auction}
+          content={
+            " Get ready for AUTOEXPO, a dynamic event celebrating innovation in the automobile industry!"
+          }
+          link={"/"}
         />
       </div>
     </div>

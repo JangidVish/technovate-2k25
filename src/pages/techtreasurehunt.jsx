@@ -41,7 +41,7 @@ function Sample() {
       <div className="container about1">
         <span style={{ color: "FDC32D" }}>FEES : </span>
         <span className="notbold" style={{ color: "white" }}>
-          150/- Per Person
+          50/- Per Person
         </span>
         <div className="container about2">
           <span style={{ color: "FDC32D" }}>PRIZES : </span>
@@ -63,7 +63,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-                77449 93653
+              77749 35301
               </h6>
             </span>
           </div>

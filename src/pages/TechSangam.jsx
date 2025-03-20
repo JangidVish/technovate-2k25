@@ -2,12 +2,16 @@ import React, { useEffect } from "react";
 import "./sample.css";
 import techsangam from "./images/techsangam.png";
 import blobPages from "../images/blob1.svg";
+import rulebook from "../RuleBook/Mind.pdf";
+import { rule } from "postcss";
 
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
-
+  const handleRuleBook = ()=>{
+    window.open(rulebook,"_blank");
+  }
   return (
     <>
       <div className="container upperimage">
@@ -28,18 +32,12 @@ function Sample() {
       {/* <div></div> */}
       <div className="containerleft">
         <div className="container">
-          <h3 className="about0">ABOUT :</h3>
+          <h3 className="about0" onClick={handleRuleBook}>Show RuleBook</h3>
         </div>
-        <br></br>
+        {/* <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            TECHसंगम is a blend of adventure and 
-            innovation. In an escape room, participants are placed in a 
-            themed room and given a time restriction to solve puzzles, 
-            locate clues, and make their way out. It's a kind of physical 
-            adventure game. These puzzles can be physical challenges 
-            that call for critical thought and teamwork to accomplish, or 
-            they might be logic puzzles, riddles, codes, or physical tasks.
+            
           </p>
         </div>
         <div>
@@ -127,7 +125,7 @@ function Sample() {
         </div>
         <br></br>
         <br></br>
-        <br></br>
+        <br></br> */}
       </div>
     </>
   );

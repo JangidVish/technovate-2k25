@@ -28,7 +28,7 @@ const hoverEffectNo = () => {
       <div className="content-btn">
         <p className="content-p">{content}</p>
         <NavLink to={link}>
-          <div className="btn">Read more</div>
+          <div className="btn">{name}</div>
         </NavLink>
       </div>
     </div>

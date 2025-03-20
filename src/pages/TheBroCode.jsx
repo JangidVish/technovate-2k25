@@ -83,67 +83,27 @@ function Sample() {
           <br /><br /><br /><br />
         </div>
         <div>
-          <h3 className="structure">STRUCTURE :</h3>
-          <ul className="structureul">
-            <li>
-              Round 1:
-              <ol className="abcde" type="i">
-                <li>The questions will test the basic general knowledge about trending topics.</li>
-                <li>The teams have to be quick and accurate in answering the questions.</li>
-              </ol>
-            </li>
-
-            <li>
-              Round 2:
-              <ol className="abcde" type="i">
-                <li>The teams will be given a set of tasks to be performed to get the desired result.</li>
-                <li>Based on this, teams will be selected for the last round.</li>
-              </ol>
-            </li>
-
-            <li>
-              Round 3:
-              <ol className="abcde" type="i">
-                <li> This is the coding round with a twist.</li>
-                <li>The teams will be given a problem statement to solve.</li>
-                <li>They will have to use their coding skills to develop a solution.</li>
-                <li>
-                  The twist will be revealed on the spot and the teams will have to incorporate it into
-                  their solution. The top three teams with the best solutions will be declared the
-                  winners.
-                </li>
-              </ol>
-            </li>
-          </ul>
-        </div>
-        <div className="generalrules">
-          <h3 className="generalrulesheading">GENERAL RULES :</h3>
-          <ul className="structureul">
-            <li>
-            The use of mobile phones and the internet is strictly prohibited.
-            </li>
-            <li>
-              The teams found using any unfair means will be immediately disqualified.
-            </li>
-            <li>
-              The decision taken by the organisers will be final and binding.
-            </li>
-            <li>
-              The teams must maintain decorum and not exhibit any offensive behaviour. The team
-              will be disqualified if they exhibit any offensive demeanour
-            </li>
-          </ul>
+          <h3 className="structure"></h3>
+          
         </div>
         <div className="container contact" style={{ color: "yellow" }}>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              Ishan Honmode : 77449 93653
+              83082 07611
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                Pushkar Sarda : 86698 02202
+              80806 80061
               </h6>
+            </span>
+          </div>
+        <div className="container about3">
+            <span style={{ color: "FDC32D" }}>VENUE : </span>
+            <span className="notbold" style={{ color: "white" }}>
+               {" "}
+               ROOM NO. 516 & 517{" "}
+              
             </span>
           </div>
         </div>

@@ -52,18 +52,20 @@ function Sample() {
               1
             </span>
           </div>
+          <br />
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
               50/- Per Person
             </span>
           </div>
-          {<div className="container about2">
+          {/* {<div className="container about2">
             <span style={{ color: "FDC32D" }}>TIME DURATION : </span>
             <span className="notbold" style={{ color: "white" }}>
               --
             </span>
-          </div>}
+          </div>} */}
+          
           <div className="container about3">
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
@@ -71,6 +73,7 @@ function Sample() {
             CAD LAB 202{" "}
             </span>
           </div>
+          <br />
           <div className="container about4">
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <h6 className="prizeh">
@@ -89,8 +92,6 @@ function Sample() {
             </h6>
           </div>
           <br></br>
-          <br></br>
-          <br></br>
         </div>
         {/* { <div>
           <h3 className="structure"></h3>
@@ -99,8 +100,8 @@ function Sample() {
           </ul>
         </div>}
          */}
-         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />br*3
-         
+         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
         <div className="container contact" style={{ color: "yellow" }}>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}> CONTACT : </span>

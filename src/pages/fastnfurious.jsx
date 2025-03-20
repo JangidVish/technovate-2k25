@@ -101,7 +101,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              7620258694
+              76202 58694
               </h6>
               {/* <h6 className="notbold deskcont" style={{ color: "white" }}>
                 - --

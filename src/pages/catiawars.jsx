@@ -27,7 +27,7 @@ function Sample() {
       <div className="dashed-line"></div>
       {/* <div></div> */}
       <div className="containerleft">
-        <div className="container">
+        {/* <div className="container">
           <h3 className="about0">ABOUT :</h3>
         </div>
         <br></br>
@@ -131,8 +131,9 @@ function Sample() {
                 - --
               </h6>
             </span>
-          </div>
+            </div> 
         </div>
+            */}
         <br></br>
         <br></br>
         <br></br>

@@ -19,16 +19,16 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Main />}></Route>
-        <Route exact path="/sharktank"  element={<Sharktank /> }></Route>
-        <Route exact path="/techtreasurehunt"  element={<Techtreasurehunt /> }></Route>
+        <Route exact path="/solvex"  element={<Sharktank /> }></Route>
+        <Route exact path="/geekitout"  element={<Techtreasurehunt /> }></Route>
         <Route exact path="/thebrocode" element={<TheBroCode/>} ></Route>
-        <Route exact path="/hireorfire" element={<Hireorfire/>} ></Route>
-        <Route exact path="/fastnfurious" element={<FastnFurious/>} ></Route>
-        <Route exact path="/techsangam" element={<TechSangam/>} ></Route>
-        <Route exact path="/catiawars" element={<CatiaWars/>} ></Route>
-        <Route exact path="/mun" element={<Mun/>} ></Route>
-        <Route exact path="/bgmivalo" element={<BgmiValo/>} ></Route>
-        <Route exact path="/iplauction" element={<Ipl/>} ></Route>
+        <Route exact path="/iplauction" element={<Hireorfire/>} ></Route>
+        <Route exact path="/error404" element={<FastnFurious/>} ></Route>
+        <Route exact path="/mindbridge" element={<TechSangam/>} ></Route>
+        <Route exact path="/bgmi" element={<CatiaWars/>} ></Route>
+        <Route exact path="/cadocreate" element={<Mun/>} ></Route>
+        <Route exact path="/valorent" element={<BgmiValo/>} ></Route>
+        <Route exact path="/rcrace" element={<Ipl/>} ></Route>
         <Route exact path="/scroll" element={<ScrollbarCarousel/>} ></Route>
       </Routes>
     </BrowserRouter>

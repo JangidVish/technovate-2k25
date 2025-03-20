@@ -5,8 +5,8 @@ import Tth from "../images/Events/tth.png";
 import brocode from "../images/Events/brocode.png";
 import hireFire from "../images/Events/iplAuction.jpg";
 import rcCar from "../images/Events/error404.jpg";
-// import techSangam from "../images/Events/techsangam.png";
-// import catiaWars from "../images/Events/catiaWars.png";
+import techSangam from "../images/Events/techsangam.png";
+import catiaWars from "../images/Events/catiaWars.png";
 import mun from "../images/Events/cad-o-create.jpg";
 import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/rc-car.jpg";
@@ -20,12 +20,12 @@ const Events = ({ reference }) => {
       </div>
       <div className="cards">     
         <EventLCard
-          name={"Geek it out"}
+          name={"Geek It Out"}
           image={Tth}
           content={
             "Showcase your coding, problem-solving, and debating skills in this thrilling 3-round competition! "
           }
-          link={"/techtreasurehunt"}
+          link={"/geekitout"}
         />
         <EventLCard
           name={"Bro Code"}
@@ -42,7 +42,7 @@ const Events = ({ reference }) => {
           content={
             "Quiz, strategize, bid, build, compete: Dive into the ultimate IPL challenge."
           }
-          link={"/hireorfire"}
+          link={"/iplauction"}
         />
           <EventLCard
           name={"Valorant"}
@@ -50,7 +50,7 @@ const Events = ({ reference }) => {
           content={
             "Play, compete, strategize, challenge, entertain: Dive into the world of games."
           }
-          link={"/bgmivalo"}
+          link={"/valorent"}
         />
         <EventLCard
           name={"SolveX"}
@@ -58,7 +58,7 @@ const Events = ({ reference }) => {
           content={
             "Ideate, analyze, create, innovate, present: Dive into the world of problem-solving."
           }
-          link={"/sharktank"}
+          link={"/solvex"}
         />
         <EventLCard
           name={"ERROR 404"}
@@ -66,31 +66,31 @@ const Events = ({ reference }) => {
           content={
             "Debug, solve, excel—feel the thrill of fixing code under pressure! Speed demons, race in Fast & Furious!"
           }
-          link={"/fastnfurious"}
+          link={"/error404"}
         />
-        {/* <EventLCard
+        <EventLCard
           name={"Bridging Minds"}
           image={techSangam}
           content={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
-          link={"/techsangam"}
+          link={"/mindbridge"}
         />
         <EventLCard
-          name={"PUBG domination"}
+          name={"BGMI domination"}
           image={catiaWars}
           content={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
-          link={"/catiawars"}
-        /> */}
+          link={"/bgmi"}
+        />
         <EventLCard
           name={"Cad-O Create "}
           image={mun}
           content={
             "Design, innovate, model, create, deliver: Craft efficient CAD solutions in just 1.5 hours!"
           }
-          link={"/mun"}
+          link={"/cadocreate"}
         />
       
         <EventLCard
@@ -99,7 +99,7 @@ const Events = ({ reference }) => {
           content={
             "Race, maneuver, overcome, accelerate, conquer: Master the track with your RC skills!"
           }
-          link={"/sharktank"}
+          link={"/rcrace"}
         />
         <EventLCard
           name={"Electrothon"}

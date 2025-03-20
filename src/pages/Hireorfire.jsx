@@ -13,7 +13,7 @@ const handleRuleBook = ()=>{
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={hirefire} alt="" />
+        {/* <img className="topimg" src={hirefire} alt="" /> */}
         <a
           href="https://konfhub.com/technovate2024#tickets"
           className="btn-register"
@@ -117,11 +117,11 @@ const handleRuleBook = ()=>{
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
               {" "}
-              9561465973{" "}
+              95614 65973{" "}
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
               {" "}
-              9422925605{" "}
+              94229 25605{" "}
               </h6>
             </span>
           </div>

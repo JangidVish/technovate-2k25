@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import hirefire from "./images/hirefire.png";
+import hirefire from "./images/ipl.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/Ipl.pdf"
+import rulebook from "../RuleBook/IPL.pdf"
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

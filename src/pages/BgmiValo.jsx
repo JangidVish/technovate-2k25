@@ -2,11 +2,16 @@ import React, { useEffect } from "react";
 import "./sample.css";
 import bgmi from "./images/bgmi.png";
 import blobPages from "../images/blob1.svg";
+import rulebook from "../RuleBook/Valorant.pdf"
 
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
+
+  const handleRuleBook = ()=>{
+    window.open(rulebook,"_blank")
+  }
 
   return (
     <>
@@ -23,6 +28,9 @@ function Sample() {
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>
+        <div className="about0" onClick={handleRuleBook}>
+        Show RuleBook
+      </div>
       </div>
      
     </>

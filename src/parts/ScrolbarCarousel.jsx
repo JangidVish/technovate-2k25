@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Scroll.css';
 
-const ScrollbarCarousel = () => {
+const ScrollbarCarousel = ({ reference }) => {
   const carouselRef = useRef(null);
 
   // List of image paths
@@ -27,10 +27,10 @@ const ScrollbarCarousel = () => {
 
   return (<>
     
-    <div className="bg-black-900 flex items-center justify-center">
+    <div className="Glimpse bg-black-900 flex items-center justify-center" id="glimpse" ref={reference}>
       <div id="carouselExample" className="relative w-full max-w-4xl">
       <hr className="border-t-2 border-dashed border-gray-400 my-4"/>
-        <h1 className='text-white font-semibold text-center text-4xl pt-6 m-3'>Past Glimps</h1>
+        <h1 className='text-white font-semibold text-center text-4xl pt-6 m-3'>Glimpse</h1>
         <div
           id="carousel"
           ref={carouselRef}

@@ -72,13 +72,13 @@ const Navbar = ({ reference, scrollToSection }) => {
           SPONSORS
         </div>
         <div
-          className={`links link4 ${activeLink === 'team' ? 'active' : ''}`}
+          className={`links link4 ${activeLink === 'Glimpse' ? 'active' : ''}`}
           onClick={() => {
-            handleSetActiveLink('team');
-            scrollToSection(reference.team);
+            handleSetActiveLink('glimpse');
+            scrollToSection(reference.glimpse);
           }}
         >
-          TEAM
+          Glimpse
         </div>
       </Header>
     </div>

@@ -62,7 +62,7 @@ const Navbar = ({ reference, scrollToSection }) => {
         >
           EVENTS
         </div>
-        <div
+         <div
           className={`links link3 ${activeLink === 'sponsors' ? 'active' : ''}`}
           onClick={() => {
             handleSetActiveLink('sponsors');
@@ -70,7 +70,7 @@ const Navbar = ({ reference, scrollToSection }) => {
           }}
         >
           SPONSORS
-        </div>
+        </div> 
         <div
           className={`links link4 ${activeLink === 'Glimpse' ? 'active' : ''}`}
           onClick={() => {

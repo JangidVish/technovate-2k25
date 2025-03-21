@@ -26,8 +26,8 @@ function Sample() {
       <div className="dashed-line"></div>
       {/* <div></div> */}
       <div className="containerleft">
-      <div className="about0" >
-        No RuleBook
+      <div className="about0" onClick={()=>{window.open(rulebook,"_blank")}}>
+        Show RuleBook
       </div>
         <div className="container">
           <h3 className="about0">ABOUT :</h3>

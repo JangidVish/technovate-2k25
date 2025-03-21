@@ -18,14 +18,9 @@ function Sample() {
     <>
       <div className="container upperimage">
         <img className="topimg" src={treasure} alt="" />
-        <a
-          href="https://konfhub.com/technovate2024#tickets"
-          className="btn-register"
-          target="_blank"
-          rel="noreferrer"
-        >
+     
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Geek%20it%20out/buyticket","_blank")}}>Register Now</div>
-        </a>
+        
         <div className="blobpagest">
           <img src={blobPages} alt="" srcSet="" />
         </div>

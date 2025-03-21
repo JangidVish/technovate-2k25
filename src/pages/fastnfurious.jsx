@@ -12,14 +12,9 @@ function Sample() {
     <>
       <div className="container upperimage">
         <img className="topimg" src={fstnfurious} alt="" />
-        <a
-          href="https://konfhub.com/technovate2024#tickets"
-          className="btn-register"
-          target="_blank"
-          rel="noreferrer"
-        >
+ 
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/ERROR%20404/buyticket","_blank")}}>Register Now</div>
-        </a>
+    
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

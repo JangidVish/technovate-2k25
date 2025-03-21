@@ -11,9 +11,14 @@ function Sample() {
     <>
       <div className="container upperimage">
         <img className="topimg" src={sharktank} alt="" />
-    
+        <a
+          href="https://grooviti.com/event/SolveX/buyticket"
+          className="btn-register"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/SolveX/buyticket","_blank")}}>Register Now</div>
-      
+        </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

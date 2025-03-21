@@ -13,6 +13,8 @@ import Ipl from "./pages/IplAuction"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./skeleton/main";
 import ScrollbarCarousel from "./parts/ScrolbarCarousel";
+import Electrothon from "./pages/Electrothon";
+import Autoexpo from "./pages/Autoexpo";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route exact path="/cadocreate" element={<Mun/>} ></Route>
         <Route exact path="/valorent" element={<BgmiValo/>} ></Route>
         <Route exact path="/rcrace" element={<Ipl/>} ></Route>
+        <Route exact path="/electrothon" element={<Electrothon/>} ></Route>
+        <Route exact path="/autoexpo" element={<Autoexpo/>} ></Route>
         <Route exact path="/scroll" element={<ScrollbarCarousel/>} ></Route>
       </Routes>
     </BrowserRouter>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./sample.css";
 import fstnfurious from "./images/fastnfurious.png";
 import blobPages from "../images/blob1.svg";
-
+import rulebook from "../RuleBook/ERROR404.pdf"
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -27,8 +27,8 @@ function Sample() {
       <div className="dashed-line"></div>
       {/* <div></div> */}
       <div className="containerleft">
-      <div className="about0" >
-       No RuleBook
+      <div className="about0" onClick={()=>{window.open(rulebook,"_blank")}} >
+        Show RuleBook
       </div>
         <div className="container">
           <h3 className="about0">ABOUT :</h3>

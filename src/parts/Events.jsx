@@ -72,7 +72,7 @@ const Events = ({ reference }) => {
           name={"Bridging Minds"}
           image={techSangam}
           content={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "A competition to build small-scale bridges with materials like balsa wood, designed to hold the maximum load."
           }
           link={"/mindbridge"}
         />
@@ -80,7 +80,7 @@ const Events = ({ reference }) => {
           name={"BGMI domination"}
           image={catiaWars}
           content={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "A BGMI competition where players showcase their skills, strategy, and teamwork to battle it out and claim the ultimate victory."
           }
           link={"/bgmi"}
         />
@@ -107,7 +107,7 @@ const Events = ({ reference }) => {
           content={
             "An exciting electronics marathon with four stages and a points-based system!Test your electronics skills—debug, design, and compete!"
           }
-          link={"/"}
+          link={"/electrothon"}
         />
         <EventLCard
           name={"Autoexpo"}
@@ -115,7 +115,7 @@ const Events = ({ reference }) => {
           content={
             " Get ready for AUTOEXPO, a dynamic event celebrating innovation in the automobile industry!"
           }
-          link={"/"}
+          link={"/autoexpo"}
         />
       </div>
     </div>

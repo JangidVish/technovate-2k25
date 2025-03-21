@@ -18,7 +18,7 @@ function Sample() {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register">Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/ERROR%20404/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

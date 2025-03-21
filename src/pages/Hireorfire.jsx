@@ -20,7 +20,7 @@ const handleRuleBook = ()=>{
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register">Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Battle%20of%20the%20Bids%20-%20IPL%20Auction/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

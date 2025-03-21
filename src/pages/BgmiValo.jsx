@@ -23,7 +23,7 @@ function Sample() {
           target="_blank"
           rel="noreferrer"
         >
-        <div className="register">Register Now</div>
+        <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Valorant/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

@@ -10,6 +10,8 @@ import catiaWars from "../images/Events/catiaWars.png";
 import mun from "../images/Events/cad-o-create.jpg";
 import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/rc-car.jpg";
+import electron from "../images/Events/electrothon.jpg"
+import autoexpo from "../images/Events/autoexpo.jpg"
 import EventLCard from "../components/EventLCard";
 
 const Events = ({ reference }) => {
@@ -103,7 +105,7 @@ const Events = ({ reference }) => {
         />
         <EventLCard
           name={"Electrothon"}
-          image={auction}
+          image={electron}
           content={
             "An exciting electronics marathon with four stages and a points-based system!Test your electronics skills—debug, design, and compete!"
           }
@@ -111,7 +113,7 @@ const Events = ({ reference }) => {
         />
         <EventLCard
           name={"Autoexpo"}
-          image={auction}
+          image={autoexpo}
           content={
             " Get ready for AUTOEXPO, a dynamic event celebrating innovation in the automobile industry!"
           }

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import hirefire from "./images/ipl.png";
+// import hirefire from "./images/ipl.png";
 import blobPages from "../images/blob1.svg";
 // import rulebook from "../RuleBook/ipl.pdf";
 function Sample() {

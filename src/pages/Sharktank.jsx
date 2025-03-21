@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./sample.css";
 import sharktank from "./images/sharktank.png";
 import blobPages from "../images/blob1.svg";
-// import rulebook from "../RuleBook/Code_RC.pdf"
+import rulebook from "../RuleBook/Code_RC.pdf"
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

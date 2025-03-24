@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import treasure from "./images/treasure.png";
+// import treasure from "./images/treasure.png";
 import blobPages from "../images/blob1.svg";
 import rulebook from "../RuleBook/GEEK.pdf";
 
@@ -16,17 +16,18 @@ function Sample() {
 
   return (
     <>
-      <div className="container upperimage">
-        <img className="topimg" src={treasure} alt="" />
+      <div className="container upperimage p-4">
+        {/* <img className="topimg" src={treasure} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">GEEK IT OUT</h1>
         <a
           href="https://grooviti.com/event/Geek%20it%20out/buyticket"
-          className="btn-register"
+          className="btn-register md:mt-10 mt-4"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Geek%20it%20out/buyticket","_blank")}}>Register Now</div>
         </a>
-        <div className="blobpagest">
+        <div className="blobpagest ">
           <img src={blobPages} alt="" srcSet="" />
         </div>
       </div>

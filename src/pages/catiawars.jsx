@@ -8,10 +8,16 @@ function Sample() {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
+    const handleRuleBook = ()=>{
+      window.open(rulebook,"_blank")
+    }
+
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={catiawars} alt="" />
+        {/* <img className="topimg" src={catiawars} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">BGMI DOMINATIONS</h1>
+
         <a
           href="https://grooviti.com/event/PUBG%20domination/buyticket"
           className="btn-register"
@@ -25,20 +31,19 @@ function Sample() {
         </div>
       </div>
       <div className="dashed-line"></div>
-      
       <div className="containerleft">
-         <div className="about0" onClick={()=>{window.open(rulebook,"_blank")}} >
-                 Show RuleBook
-              </div>
-        {/* <div className="container">
+      <div className="about0" onClick={handleRuleBook} >
+         Show RuleBook
+      </div>
+        <div className="container">
           <h3 className="about0">ABOUT :</h3>
         </div>
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            The Ultimate 3D Modelling challenge. Modelling is 
-            the base of product development. Catia is the reputed software for 
-            modelling ,assembly, drafting etc.
+          Welcome to the BGMI Championship 2025 hosted by Pimpri Chinchwad College of Engineering and Research, Ravet. This event is open to both 
+internal and external participants. Compete for the chance to win exciting 
+prizes and show off your skills in one of the most popular mobile games. 
           </p>
         </div>
         <div>
@@ -54,92 +59,45 @@ function Sample() {
               50/- Per Person
             </span>
           </div>
+
           <div className="container about2">
-            <span style={{ color: "FDC32D" }}>TIME DURATION : </span>
-            <span className="notbold" style={{ color: "white" }}>
-              --
-            </span>
-          </div>
-          <div className="container about3">
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
             {" "}
-              --{" "}
+            PCCOER, PUNE – 412101{" "}
             </span>
           </div>
+          <div className="container about3">
+            <span style={{ color: "FDC32D" }}> CONTACT : <span>
+              <h6 className=" deskcont" style={{ color: "white" }}>
+              Sanket Wable : 8766853505 
+              </h6>
+              <h6 className=" deskcont" style={{ color: "white" }}>
+              Atharv Devkar : 9022379806  
+              </h6>
+            </span> </span>
+          </div>
+          <br /><br />
           <div className="container about4">
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
-            <span className="notbold">
-              <span style={{ color: "white" }}>1st </span>
-              <span style={{ color: "#563380" }}> --</span>
-            </span>
             <h6 className="prizeh">
+            <h6 className="notbold prizeh">
+              <span style={{ color: "white" }}>1st </span>
+              <span style={{ color: "#563380" }}> Rs 5000 /-</span>
+            </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}> --</span>
+                <span style={{ color: "#563380" }}> Rs 3000 /-</span>
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>3rd </span>
-                <span style={{ color: "#563380" }}>--</span>
+                <span style={{ color: "#563380" }}> Rs 2000 /-</span>
               </h6>
             </h6>
           </div>
-          <br></br>
-          <br></br>
-          <br></br>
         </div>
-        <div>
-          <h3 className="structure">STRUCTURE :</h3>
-          <ul className="structureul">
-            --
-          </ul>
-        </div>
-        <div className="generalrules">
-          <h3 className="generalrulesheading">GENERAL RULES :</h3>
-          <ul className="structureul">
-            <li>
-            The provided model or assembly should be completed within the given time.
-            </li>
-            <li>
-            The model should be well constrained.
-            </li>
-            <li>
-            The geometry of each part should be clearly defined.
-            </li>
-            <li>
-            Individual participation is must.
-            </li>
-            <li>
-            The participant should be capable enough to make changes if asked by the judges.
-            </li>
-            <li>
-            Wear a formal and decent attire.
-            </li>
-            <li>
-            Awards: Recognition for outstanding delegates.
-            </li>
-            <li>
-            Always check the event's specific rules for details.
-            </li>
-          </ul>
-        </div>
-        <div className="container contact" style={{ color: "yellow" }}>
-          <div className="container about0">
-            <span style={{ color: "FDC32D" }}> CONTACT : </span>
-            <span>
-              <h6 className=" deskcont" style={{ color: "white" }}>
-              - --
-              </h6>
-              <h6 className="notbold deskcont" style={{ color: "white" }}>
-                - --
-              </h6>
-            </span>
-            </div> 
-        </div>
-            */}
-        <br></br>
-        <br></br>
-        <br></br>
+        
+        
       </div>
     </>
   );

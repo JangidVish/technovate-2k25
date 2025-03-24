@@ -11,7 +11,7 @@ import mun from "../images/Events/cad-o-create.jpg";
 import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/rc-car.jpg";
 import electron from "../images/Events/electrothon.jpg"
-import autoexpo from "../images/Events/autoexpo.jpg"
+import autoexpo from "../images/Events/treasurehunt.jpg"
 import EventLCard from "../components/EventLCard";
 
 const Events = ({ reference }) => {
@@ -112,12 +112,12 @@ const Events = ({ reference }) => {
           link={"/electrothon"}
         />
         <EventLCard
-          name={"Autoexpo"}
+          name={"Treasure Hunt"}
           image={autoexpo}
           content={
-            " Get ready for AUTOEXPO, a dynamic event celebrating innovation in the automobile industry!"
+            "An exhilarating four-round treasure hunt full of challenges and adventure!"
           }
-          link={"/autoexpo"}
+          link={"/treasurehunt"}
         />
       </div>
     </div>

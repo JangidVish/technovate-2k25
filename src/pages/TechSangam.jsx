@@ -15,7 +15,9 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={techsangam} alt="" />
+        {/* <img className="topimg" src={techsangam} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">BRIDGE MINDS</h1>
+
         <a
           href="https://grooviti.com/event/Bridging%20Minds/buyticket"
           className="btn-register"
@@ -34,7 +36,7 @@ function Sample() {
         <div className="container">
           <h3 className="about0" onClick={handleRuleBook}>Show RuleBook</h3>
         </div>
-        {/* <br></br>
+        <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
             
@@ -44,19 +46,19 @@ function Sample() {
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              limit of 5!
+              2 - 4
             </span>
           </div>
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              200/- Per Team
+              150/- Per Team
             </span>
           </div>
           <div className="container about2">
             <span style={{ color: "FDC32D" }}>TIME DURATION : </span>
             <span className="notbold" style={{ color: "white" }}>
-              20-25 mins
+              90 mins
             </span>
           </div>
           <div className="container about3">
@@ -70,16 +72,16 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <span className="notbold">
               <span style={{ color: "white" }}>1st </span>
-              <span style={{ color: "#563380" }}> --</span>
+              <span style={{ color: "#563380" }}> Rs.5000/-</span>
             </span>
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}> --</span>
+                <span style={{ color: "#563380" }}> RS.3000/-</span>
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>3rd </span>
-                <span style={{ color: "#563380" }}>--</span>
+                <span style={{ color: "#563380" }}>RS.2000/-</span>
               </h6>
             </h6>
           </div>
@@ -97,16 +99,20 @@ function Sample() {
           <h3 className="generalrulesheading">GENERAL RULES :</h3>
           <ul className="structureul">
             <li>
-            Three teams will enter each block.
+            1. Team Composition: It is a Spot Event Each team can have 2-4 members.No external 
+            help is allowed (only team members can work on their bridge). 
             </li>
             <li>
-            Only the first fifteen teams that register will be permitted.
+            2. Registration: Teams must register before the deadline. 
             </li>
             <li>
-            The first team out of each of the five rooms will advance to the finals.
+            3. Bridge Type: Participants will construct a model bridge using specific materials given 
+            by organisers.
             </li>
             <li>
-            Each block will feature a code-containing box that must be opened in order to access the escape room. The code must be decoded and sent to the organizer for approval
+            4. Time Limit: A fixed time duration of 90 MIN will be given to build the bridge. 
+Participants should complete tasks within Stipulated time. 2 hours will be given to setting 
+the gule, after that the testing will began
             </li>
           </ul>
         </div>
@@ -125,7 +131,7 @@ function Sample() {
         </div>
         <br></br>
         <br></br>
-        <br></br> */}
+        <br></br> 
       </div>
     </>
   );

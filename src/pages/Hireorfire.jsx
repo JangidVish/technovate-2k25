@@ -14,6 +14,8 @@ const handleRuleBook = ()=>{
     <>
       <div className="container upperimage">
         {/* <img className="topimg" src={hirefire} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4 w-full">BATTLE OF THE BIDS</h1>
+
         <a
           href="https://grooviti.com/event/Battle%20of%20the%20Bids%20-%20IPL%20Auction/buyticket"
           className="btn-register"

@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import "./sample.css";
 import ipl from "./images/ipl.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/Electrothon.pdf"
+import rulebook from "../RuleBook/Treasurehunt.pdf"
 
 const Autoexpo = () => {
      useEffect(() => {
@@ -11,7 +11,9 @@ const Autoexpo = () => {
   return (
     <>
      <div className="container upperimage">
-        <img className="topimg" src={ipl} alt="" />
+        {/* <img className="topimg" src={ipl} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">TREASURE HUNT</h1>
+
         <a
           href="https://grooviti.com/event/RC%20Challenge/buyticket"
           className="btn-register"
@@ -36,21 +38,22 @@ const Autoexpo = () => {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-            A marathon which require basic knowledge of electronics.
-            Electrothon consists of 4 levels based on points system , there will be no elimination.
+          The Treasure Hunt is an exhilarating four-round competition that tests participants ’intelligence, teamwork, 
+and problem-solving skills. Teams will navigate through challenging rounds to claim victory and win a 
+₹5,000/- cash prize! 
           </p>
         </div>
         <div>
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-              3-4 Per Team
+              4 Per Team
             </span>
           </div>
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              100/- Per Team
+              200/- Per Team
             </span>
           </div>
 
@@ -58,19 +61,17 @@ const Autoexpo = () => {
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
             {" "}
-              Campus Parking{" "}
+            5th floor, PCCOER {" "}
             </span>
           </div>
           <div className="container about3">
             <span style={{ color: "FDC32D" }}> CONTACT : <span>
+            
               <h6 className=" deskcont" style={{ color: "white" }}>
-              Aditya Patil:   92095 27174 
+              Kalyani Kolpe: 9657889259 
               </h6>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              Rushikesh Pawar: 82375 11429  
-              </h6>
-              <h6 className=" deskcont" style={{ color: "white" }}>
-              Shreyash Pawar: 90960 48612  
+               Isha Khandare: 9022648717 
               </h6>
             </span> </span>
           </div>
@@ -80,18 +81,10 @@ const Autoexpo = () => {
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <h6 className="prizeh">
             <h6 className="notbold prizeh">
-              <span style={{ color: "white" }}>1st </span>
+              {/* <span style={{ color: "white" }}>1st </span> */}
               <span style={{ color: "#563380" }}> Rs 5000 /-</span>
             </h6>
-              <h6 className="notbold prizeh">
-                <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}> Rs 3000 /-</span>
-              </h6>
-              <h6 className="notbold prizeh">
-                <span style={{ color: "white" }}>3rd </span>
-                <span style={{ color: "#563380" }}> Rs 2000 /-</span>
-              </h6>
-            </h6>
+             </h6>
           </div>
         </div>
         

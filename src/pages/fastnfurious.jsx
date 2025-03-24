@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import fstnfurious from "./images/fastnfurious.png";
+// import fstnfurious from "./images/fastnfurious.png";
 import blobPages from "../images/blob1.svg";
 import rulebook from "../RuleBook/ERROR404.pdf"
 function Sample() {
@@ -11,7 +11,10 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={fstnfurious} alt="" />
+        {/* <img className="topimg" src={fstnfurious} alt="" /> */}
+
+        <h1 className="text-6xl font-bold text-white p-4">ERROR 404</h1>
+
         <a
           href="https://grooviti.com/event/ERROR%20404/buyticket"
           className="btn-register"

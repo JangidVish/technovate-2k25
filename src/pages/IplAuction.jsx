@@ -14,7 +14,9 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={ipl} alt="" />
+        {/* <img className="topimg" src={ipl} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">RC CHALLENGE</h1>
+
         <a
           href="https://grooviti.com/event/RC%20Challenge/buyticket"
           className="btn-register"

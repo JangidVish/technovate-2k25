@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import sharktank from "./images/sharktank.png";
+// import sharktank from "./images/sharktank.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/Code_RC.pdf"
+import rulebook from "../RuleBook/SolveX.pdf"
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -10,7 +10,9 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={sharktank} alt="" />
+        {/* <img className="topimg" src={sharktank} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">SOLVEX</h1>
+
         <a
           href="https://grooviti.com/event/SolveX/buyticket"
           className="btn-register"

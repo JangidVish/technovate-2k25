@@ -15,7 +15,9 @@ function Sample() {
   return (
     <>
       <div className="container upperimage">
-        <img className="topimg" src={mun} alt="" />
+        {/* <img className="topimg" src={mun} alt="" /> */}
+        <h1 className="text-6xl font-bold text-white p-4">CAD-0-CREATE</h1>
+
         <a
           href="https://grooviti.com/event/Cad-O%20Create%20/buyticket"
           className="btn-register"

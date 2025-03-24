@@ -26,10 +26,10 @@ const Footer = () => {
 
   const handleEvent = (event) => {
     const routes = {
-      Calender: "/",
-      Categories: "/Categories",
-      Register: "/Register",
-      Past_Events: "/"
+      Home: "/",
+      Events: "/Categories",
+      Glimpse: "/Register",
+      // Past_Events: "/"
     };
     navigate(routes[event] || "/");
   };
@@ -70,23 +70,7 @@ const Footer = () => {
         </section>
 
         {/* Social & Sponsors */}
-        <section className="justify-flex-end">
-          <h3 className="text-lg font-semibold text-gray-200">Follow Us</h3>
-          <div className="flex gap-4 mt-2">
-            <span onClick={() => handleNavigate("Instagram")} className="cursor-pointer hover:text-purple-300 transition hover:scale-110">
-              <InstagramIcon fontSize="large"/>
-            </span>
-            <span onClick={() => handleNavigate("Twitter")} className="cursor-pointer hover:text-purple-300 transition hover:scale-110">
-              <XIcon fontSize="large"/>
-            </span>
-          </div>
-          <h3 className="text-lg font-semibold text-gray-200 mt-6">Sponsors & Partners</h3>
-          <h5>Name of person</h5>
-          <h5>Name of person</h5>
-          <p onClick={() => handleEvent('sponser')} className="text-gray-400 cursor-pointer hover:text-purple-300 transition">
-            [Sponsor Logo]
-          </p>
-        </section>
+       
       </div>
 
       {/* Footer Bottom */}

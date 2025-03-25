@@ -8,10 +8,10 @@ import electrothon from '../images/Carousel1/electrothon.png';
 import error404 from "../images/Carousel1/error404.png"
 import geek from "../images/Carousel1/geek.png"
 import ipl from "../images/Carousel1/ipl.png"
-import mindmaster from "../images/Carousel1/mind masters.png"
+import mindmaster from "../images/Carousel1/mindmasters.png"
 import rccarautoexpo from "../images/Carousel1/rccarautoexpo.png"
 import solveX from "../images/Carousel1/solvex.png"
-import treasurehunt from "../images/Carousel1/treasure hunt.png"
+import treasurehunt from "../images/Carousel1/treasureHunt.png"
 import valorant from "../images/Carousel1/valorant.png"
 
 const Carousel = () => {

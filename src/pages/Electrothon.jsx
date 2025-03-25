@@ -15,12 +15,12 @@ const Electrothon = () => {
         <h1 className="text-6xl font-bold text-white p-4">ELECTROTHON</h1>
 
         <a
-          href="https://grooviti.com/event/RC%20Challenge/buyticket"
+          href="https://grooviti.com/event/Electrothon/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/RC%20Challenge/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Electrothon/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

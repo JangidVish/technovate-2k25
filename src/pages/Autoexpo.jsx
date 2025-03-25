@@ -15,12 +15,12 @@ const Autoexpo = () => {
         <h1 className="text-6xl font-bold text-white p-4">TREASURE HUNT</h1>
 
         <a
-          href="https://grooviti.com/event/RC%20Challenge/buyticket"
+          href="https://grooviti.com/event/Treasure%20Hunt/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/RC%20Challenge/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Treasure%20Hunt/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

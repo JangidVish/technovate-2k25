@@ -13,12 +13,12 @@ const Electrothon = () => {
      <div className="container upperimage">
         <img className="topimg" src={ipl} alt="" />
         <a
-          href="https://konfhub.com/technovate2024#tickets"
+          href="https://grooviti.com/event/Electrothon/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Treasure%20Hunt/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Electrothon/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

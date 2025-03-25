@@ -12,7 +12,7 @@ import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/rc-car.jpg";
 import electron from "../images/Events/electrothon.jpg"
 import autoexpo from "../images/Events/treasurehunt.jpg"
-import mindmaster from "../images/Events/MindMaster.jpg"
+import mindmaster from "../images/Events/mindmaster.jpg"
 import EventLCard from "../components/EventLCard";
 // import mindmaster from "../images/Events/mindmaster.jpg";
 

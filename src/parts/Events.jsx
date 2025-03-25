@@ -12,6 +12,7 @@ import bgmi from "../images/Events/bgmi.png";
 import auction from "../images/Events/rc-car.jpg";
 import electron from "../images/Events/electrothon.jpg"
 import autoexpo from "../images/Events/treasurehunt.jpg"
+import mindmaster from "../images/Events/MindMaster.jpg"
 import EventLCard from "../components/EventLCard";
 import mindmaster from "../images/Events/mindmaster.jpgjpg";
 
@@ -120,14 +121,13 @@ const Events = ({ reference }) => {
           }
           link={"/treasurehunt"}
         />
-
-<EventLCard
+        <EventLCard
           name={"Mind Masters"}
           image={mindmaster}
           content={
-            "Step into the hot seat in Mind Masters! Test your knowledge, tackle tricky questions, and strategize your way to victory in this thrilling quiz showdown!"
+            "Mind Masters: Test your knowledge, use lifelines, and conquer challenges in this thrilling KBC-inspired quiz competition!"
           }
-          link={"/cadocreate"}
+          link={"/mindmaster"}
         />
       </div>
     </div>

@@ -15,6 +15,7 @@ import Main from "./skeleton/main";
 import ScrollbarCarousel from "./parts/ScrolbarCarousel";
 import Electrothon from "./pages/Electrothon";
 import Autoexpo from "./pages/Autoexpo";
+import MindMaster from "./pages/MindMaster";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/electrothon" element={<Electrothon />}></Route>
         <Route exact path="/treasurehunt" element={<Autoexpo />}></Route>
         <Route exact path="/scroll" element={<ScrollbarCarousel />}></Route>
+        <Route exact path="/mindmaster" element={<MindMaster />}></Route>
       </Routes>
     </BrowserRouter>
   );

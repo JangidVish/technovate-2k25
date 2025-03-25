@@ -6,7 +6,7 @@ import About from "../parts/About";
 import Events from "../parts/Events";
 import Footer from "../parts/Footer";
 import ScrolbarCarousel from "../parts/ScrolbarCarousel";
-
+import Carousel from "../parts/Carsoul";
 const Main = () => {
     const home = useRef(null);
     const team = useRef(null);
@@ -27,6 +27,7 @@ const Main = () => {
             <Navbar scrollToSection={scrollToSection} reference={{ home, events, glimpse }} />
             <Hero scrollToSection={scrollToSection} reference={home} next={count} />
             <About scrollToSection={scrollToSection} reference={count} next={team} />
+            <Carousel/>
             <Events reference={events} />
             <ScrolbarCarousel scrollToSection={scrollToSection} reference={glimpse} next={team} />
             <Footer />

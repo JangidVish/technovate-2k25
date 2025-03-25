@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-// import bgmi from "./images/bgmi.png";
 import blobPages from "../images/blob1.svg";
 import rulebook from "../RuleBook/MindMasters.pdf"
 
@@ -12,24 +11,25 @@ function Sample() {
   const handleRuleBook = ()=>{
     window.open(rulebook,"_blank")
   }
-
   return (
     <>
-      <div className="container upperimage">
+    <div className="container upperimage">
         {/* <img className="topimg" src={bgmi} alt="" /> */}
-        <h1 className="text-6xl font-bold text-white p-4">VALORANT</h1>
+        <h1 className="text-6xl font-bold text-white p-4">Mind Masters</h1>
         <a
-          href="https://grooviti.com/event/Valorant/buyticket"
+          href="https://grooviti.com/event/Mind%20Masters/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-        <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Valorant/buyticket","_blank")}}>Register Now</div>
+        <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Mind%20Masters/buyticket","_blank")}}>Register Now</div>
         </a>
+        <br /><br /><br /><br />
       
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>
+        <div className="dashed-line"></div>
         <div className="containerleft">
       <div className="about0" onClick={handleRuleBook} >
         Show RuleBook
@@ -40,18 +40,23 @@ function Sample() {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-          Welcome to the Valorant Tournament Championship 2025 hosted by Pimpri Chinchwad College of Engineering and Research, Ravet. This event is open to both internal and external participants. Compete for the chance to win exciting prizes and show off your skills in one of the most popular tactical FPS games.
+          Step into the hot seat and challenge your intellect in Mind Masters, a thrilling quiz 
+          competition inspired by Kaun Banega Crorepati! Test your knowledge across various topics, 
+          tackle mind-boggling questions, and climb the ladder of success with each correct answer. 
+          With exciting lifelines, intense competition, and an electrifying atmosphere, Mind Masters 
+          promises to be the ultimate test of wit, strategy, and presence of mind. Are you ready to claim 
+          the title of the ultimate quiz champion? 
           </p>
         </div>
         <div>
-          <div className="container about0">
+          {/* <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : 5 </span>
            
-          </div>
+          </div> */}
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              99/- Per Team
+              50 /-
             </span>
           </div>
           {/* <div className="container about3">
@@ -61,7 +66,7 @@ function Sample() {
               --{" "}
             </span>
           </div> */}
-          <div className="container about4">
+          {/* <div className="container about4">
             <span style={{ color: "FDC32D" }}>PRIZES : </span>
             <h6 className="prizeh">
             <h6 className="notbold prizeh">
@@ -77,7 +82,7 @@ function Sample() {
                 <span style={{ color: "#563380" }}> Rs 500/-</span>
               </h6>
             </h6>
-          </div>
+          </div> */}
           <br></br>
           <br></br>
           <br></br>
@@ -92,10 +97,13 @@ function Sample() {
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              83082 07611
+              Sharvari Kinge: 95616 65403
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-              80806 80061
+                  Ishaan Gandhi: 88302 12369
+              </h6>
+              <h6 className="notbold deskcont" style={{ color: "white" }}>
+                    Om More: 95118 39021 
               </h6>
             </span>
           </div>
@@ -103,7 +111,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
                {" "}
-               ROOM NO. 516 & 517{" "}
+               PCCoer{" "}
               
             </span>
           </div>
@@ -113,7 +121,7 @@ function Sample() {
       </div>
      
     </>
-  );
+  )
 }
 
 export default Sample;

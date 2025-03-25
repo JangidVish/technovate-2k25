@@ -1,19 +1,9 @@
+
 import React, { useState } from 'react';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import XIcon from '@mui/icons-material/X';
-import { useNavigate } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ reference, scrollToSection }) => {
   const [email, setEmail] = useState("");
-  const navigate = useNavigate();
-
-  const handleNavigate = (platform) => {
-    const urls = {
-      Instagram: 'https://www.instagram.com/technovate_pccoer/',
-      Twitter: 'https://www.X.com/technovate_pccoer/'
-    };
-    window.location.href = urls[platform] || "#";
-  };
+  const [activeLink, setActiveLink] = useState('home');
 
   const handleSubscribe = () => {
     if (email) {
@@ -24,26 +14,46 @@ const Footer = () => {
     }
   };
 
-  const handleEvent = (event) => {
-    const routes = {
-      Home: "/",
-      Events: "/Categories",
-      Glimpse: "/Register",
-      // Past_Events: "/"
+  const handleSetActiveLink = (link) => {
+    setActiveLink(link);
+  };
+
+  const handleEvent = (item) => {
+    const linkMap = {
+      Home: 'home',
+      Event: 'events',
+      Glimpse: 'glimpse'
     };
-    navigate(routes[event] || "/");
+    
+    const link = linkMap[item];
+    if (link && reference && reference[link]) {
+      handleSetActiveLink(link);
+      scrollToSection(reference[link]);
+      
+      // Smooth scroll to top if we're at footer
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
   };
 
   return (
     <div className="bg-purple-950 text-white py-10 px-6 mt-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
         {/* Navigation Links */}
-        <section >
+        <section>
           <h3 className="text-lg font-semibold text-gray-200">Explore</h3>
-          <ul className="list-none space-y-2 text-gray-400 ">
-            {["Calender", "Categories", "Register", "Past_Events"].map((item) => (
-              <li key={item} onClick={() => handleEvent(item)} className="cursor-pointer hover:text-purple-300 transition">
-                 {item.replace("_", " ")}
+          <ul className="list-none space-y-2 text-gray-400">
+            {["Home", "Event", "Glimpse"].map((item) => (
+              <li 
+                key={item} 
+                onClick={() => handleEvent(item)} 
+                className={`cursor-pointer hover:text-purple-300 transition ${
+                  activeLink === item.toLowerCase() ? 'active' : ''
+                }`}
+              >
+                {item.replace("_", " ")}
               </li>
             ))}
           </ul>

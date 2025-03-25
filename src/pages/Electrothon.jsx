@@ -11,16 +11,14 @@ const Electrothon = () => {
   return (
     <>
      <div className="container upperimage">
-        {/* <img className="topimg" src={ipl} alt="" /> */}
-        <h1 className="text-6xl font-bold text-white p-4">ELECTROTHON</h1>
-
+        <img className="topimg" src={ipl} alt="" />
         <a
-          href="https://grooviti.com/event/RC%20Challenge/buyticket"
+          href="https://konfhub.com/technovate2024#tickets"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/RC%20Challenge/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Treasure%20Hunt/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
@@ -38,7 +36,7 @@ const Electrothon = () => {
         <br></br>
         <div className="pcontainer">
           <p className="hawkpara">
-          A marathon which require basic knowledge of electronics.
+            A marathon which require basic knowledge of electronics.
             Electrothon consists of 4 levels based on points system , there will be no elimination.
           </p>
         </div>

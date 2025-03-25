@@ -20,7 +20,7 @@ const Autoexpo = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/RC%20Challenge/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Treasure%20Hunt/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

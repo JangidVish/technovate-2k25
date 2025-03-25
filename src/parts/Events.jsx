@@ -14,7 +14,7 @@ import electron from "../images/Events/electrothon.jpg"
 import autoexpo from "../images/Events/treasurehunt.jpg"
 import mindmaster from "../images/Events/MindMaster.jpg"
 import EventLCard from "../components/EventLCard";
-import mindmaster from "../images/Events/mindmaster.jpgjpg";
+// import mindmaster from "../images/Events/mindmaster.jpg";
 
 const Events = ({ reference }) => {
   return (

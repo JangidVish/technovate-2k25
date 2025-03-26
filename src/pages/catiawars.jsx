@@ -47,16 +47,11 @@ prizes and show off your skills in one of the most popular mobile games.
           </p>
         </div>
         <div>
-          <div className="container about0">
-            <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
-            <span className="notbold" style={{ color: "white" }}>
-              Squad
-            </span>
-          </div>
+          
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              100/- Per Person
+              50/- Per Person
             </span>
           </div>
 

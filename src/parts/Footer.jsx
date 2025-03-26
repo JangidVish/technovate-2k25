@@ -20,9 +20,9 @@ const Footer = ({ reference, scrollToSection }) => {
 
   const handleEvent = (item) => {
     const linkMap = {
-      Home: 'home',
-      Event: 'events',
-      Glimpse: 'glimpse'
+      'Home': 'home',
+      'Event': 'events',
+      'Glimpse': 'glimpse'
     };
     
     const link = linkMap[item];

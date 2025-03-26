@@ -52,7 +52,7 @@ const Electrothon = () => {
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              100/- Per Team
+              150/- Per Team
             </span>
           </div>
 

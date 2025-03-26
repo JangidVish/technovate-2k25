@@ -65,7 +65,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
             {" "}
-              --{" "}
+            Geotech Lab 215 -PCCOER, Pune{" "}
             </span>
           </div>
           <div className="container about4">
@@ -121,10 +121,10 @@ the gule, after that the testing will began
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              - --
+              ROHIT CHOPKAR - 9850852050
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                - --
+              VEDANT PATEKAR - 8484922135 
               </h6>
             </span>
           </div>

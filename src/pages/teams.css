@@ -1,0 +1,96 @@
+/* General Styling */
+.teams-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Futuristic Heading with Glowing Bulb */
+.dim-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px #ffcc00, 0 0 15px rgba(255, 204, 0, 0.6);
+    position: relative;
+    z-index: 2;
+}
+
+/* Glowing bulb effect */
+.dim-heading .bulb {
+    font-size: 2rem;
+    animation: glow-bulb 1.5s infinite alternate;
+}
+
+/* Table Styling */
+.table-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.teams-table {
+    width: 80%;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+}
+
+/* Table Header */
+.teams-table th {
+    border: 1px solid #ffcc00;
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: rgba(255, 204, 0, 0.3);
+    color: white;
+}
+
+/* Table Cells */
+.teams-table td {
+    border: 1px solid #ffcc00;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Faculty Cell Merged Styling */
+.faculty-cell {
+    vertical-align: middle;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+/* Glowing Row Effect */
+.teams-table tr:hover td {
+    background: rgba(255, 255, 255, 0.15);
+    transition: background 0.3s ease-in-out;
+}
+
+/* Neon Glow Animation */
+@keyframes glow-bulb {
+    0% {
+        text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+    }
+    100% {
+        text-shadow: 0 0 15px #ffcc00, 0 0 25px #ffcc00;
+    }
+}

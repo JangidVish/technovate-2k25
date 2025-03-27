@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import techsangam from "./images/techsangam.png";
+
 import blobPages from "../images/blob1.svg";
 import rulebook from "../RuleBook/MindBridge.pdf";
 // import { rule } from "postcss";
@@ -19,12 +19,12 @@ function Sample() {
         <h1 className="text-6xl font-bold text-white p-4">BRIDGE MINDS</h1>
 
         <a
-          href="https://grooviti.com/event/Bridging%20Minds/buyticket"
+          href="https://grooviti.com/event/Bridge%20Minds/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Bridging%20Minds/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Bridge%20Minds/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />

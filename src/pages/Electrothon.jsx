@@ -14,14 +14,14 @@ const Electrothon = () => {
         {/* <img className="topimg" src={ipl} alt="" /> */}
                 <h1 className="text-6xl font-bold text-white p-4">ELECTROTHON</h1>
         
-        <a
+        {/* <a
           href="https://grooviti.com/event/Electrothon/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Electrothon/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

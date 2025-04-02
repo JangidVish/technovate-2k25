@@ -15,14 +15,14 @@ function Sample() {
 
         <h1 className="text-6xl font-bold text-white p-4">ERROR 404</h1>
 
-        <a
+        {/* <a
           href="https://grooviti.com/event/ERROR%20404/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/ERROR%20404/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

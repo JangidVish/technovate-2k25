@@ -18,14 +18,14 @@ function Sample() {
         {/* <img className="topimg" src={techsangam} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">BRIDGE MINDS</h1>
 
-        <a
+        {/* <a
           href="https://grooviti.com/event/Bridge%20Minds/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Bridge%20Minds/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

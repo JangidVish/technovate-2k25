@@ -17,7 +17,7 @@ function Sample() {
       <div className="container upperimage">
         {/* <img className="topimg" src={mun} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">CAD-0-CREATE</h1>
-
+{/* 
         <a
           href="https://grooviti.com/event/Cad-O%20Create%20/buyticket"
           className="btn-register"
@@ -25,7 +25,7 @@ function Sample() {
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Cad-O%20Create%20/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

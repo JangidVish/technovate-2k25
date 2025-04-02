@@ -21,7 +21,7 @@ function Sample() {
       <div className="container upperimage">
         {/* <img className="topimg" src={bgmi} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">VALORANT</h1>
-        <a
+        {/* <a
           href="https://grooviti.com/event/Valorant/buyticket"
           className="btn-register"
           target="_blank"
@@ -35,7 +35,7 @@ function Sample() {
           >
             Register Now
           </div>
-        </a>
+        </a> */}
 
         <div className="blobpagest">
           <img src={blobPages} alt="" />

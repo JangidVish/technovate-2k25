@@ -16,14 +16,14 @@ const handleRuleBook = ()=>{
         {/* <img className="topimg" src={hirefire} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4 w-full">BATTLE OF THE BIDS</h1>
 
-        <a
+        {/* <a
           href="https://grooviti.com/event/Battle%20of%20the%20Bids%20-%20IPL%20Auction/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Battle%20of%20the%20Bids%20-%20IPL%20Auction/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

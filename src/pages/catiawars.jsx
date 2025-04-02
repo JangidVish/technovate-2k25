@@ -18,14 +18,14 @@ function Sample() {
         {/* <img className="topimg" src={catiawars} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">BGMI DOMINATIONS</h1>
 
-        <a
+        {/* <a
           href="https://grooviti.com/event/PUBG%20domination/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/PUBG%20domination/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
         </div>

@@ -19,14 +19,14 @@ function Sample() {
       <div className="container upperimage p-4">
         {/* <img className="topimg" src={treasure} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">GEEK IT OUT</h1>
-        <a
+        {/* <a
           href="https://grooviti.com/event/Geek%20it%20out/buyticket"
           className="btn-register md:mt-10 mt-4"
           target="_blank"
           rel="noreferrer"
         >
           <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Geek%20it%20out/buyticket","_blank")}}>Register Now</div>
-        </a>
+        </a> */}
         <div className="blobpagest ">
           <img src={blobPages} alt="" srcSet="" />
         </div>

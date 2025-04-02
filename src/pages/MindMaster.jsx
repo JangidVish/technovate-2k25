@@ -16,15 +16,15 @@ function Sample() {
     <div className="container upperimage">
         {/* <img className="topimg" src={bgmi} alt="" /> */}
         <h1 className="text-6xl font-bold text-white p-4">Mind Masters</h1>
-        <a
+        {/* <a
           href="https://grooviti.com/event/Mind%20Masters/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
         <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Mind%20Masters/buyticket","_blank")}}>Register Now</div>
-        </a>
-        <br /><br /><br /><br />
+        </a> */}
+        {/* <br /><br /><br /><br /> */}
       
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
@@ -83,10 +83,10 @@ function Sample() {
               </h6>
             </h6>
           </div> */}
+          {/* <br></br>
           <br></br>
           <br></br>
-          <br></br>
-          <br /><br /><br /><br />
+          <br /><br /><br /><br /> */}
         </div>
         <div>
           <h3 className="structure"></h3>

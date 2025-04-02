@@ -11,7 +11,9 @@ const Electrothon = () => {
   return (
     <>
      <div className="container upperimage">
-        <img className="topimg" src={ipl} alt="" />
+        {/* <img className="topimg" src={ipl} alt="" /> */}
+                <h1 className="text-6xl font-bold text-white p-4">ELECTROTHON</h1>
+        
         <a
           href="https://grooviti.com/event/Electrothon/buyticket"
           className="btn-register"
@@ -50,7 +52,7 @@ const Electrothon = () => {
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              100/- Per Team
+              150/- Per Team
             </span>
           </div>
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./sample.css";
-import techsangam from "./images/techsangam.png";
+
 import blobPages from "../images/blob1.svg";
 import rulebook from "../RuleBook/BridgingMinds.pdf";
 // import { rule } from "postcss";
@@ -19,12 +19,12 @@ function Sample() {
         <h1 className="text-6xl font-bold text-white p-4">BRIDGE MINDS</h1>
 
         <a
-          href="https://grooviti.com/event/Bridging%20Minds/buyticket"
+          href="https://grooviti.com/event/Bridge%20Minds/buyticket"
           className="btn-register"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Bridging%20Minds/buyticket","_blank")}}>Register Now</div>
+          <div className="register" onClick={()=> {window.open("https://grooviti.com/event/Bridge%20Minds/buyticket","_blank")}}>Register Now</div>
         </a>
         <div className="blobpagest">
           <img src={blobPages} alt="" srcset="" />
@@ -65,7 +65,7 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>VENUE : </span>
             <span className="notbold" style={{ color: "white" }}>
             {" "}
-              --{" "}
+            Geotech Lab 215 -PCCOER, Pune{" "}
             </span>
           </div>
           <div className="container about4">
@@ -121,10 +121,10 @@ the gule, after that the testing will began
             <span style={{ color: "FDC32D" }}> CONTACT : </span>
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
-              - --
+              ROHIT CHOPKAR - 9850852050
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
-                - --
+              VEDANT PATEKAR - 8484922135 
               </h6>
             </span>
           </div>

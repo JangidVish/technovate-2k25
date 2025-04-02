@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';  // ✅ Import useNavigate
 import styled from 'styled-components';
 import "./Navbar.css";
 
@@ -12,7 +13,8 @@ const Header = styled.header`
 const Navbar = ({ reference, scrollToSection }) => {
   const [scrollDirection, setScrollDirection] = useState('');
   const [lastScroll, setLastScroll] = useState(0);
-  const [activeLink, setActiveLink] = useState('home'); // Initially setting the home link as active
+  const [activeLink, setActiveLink] = useState('home');
+  const navigate = useNavigate();  // ✅ Initialize useNavigate
 
   useEffect(() => {
     const handleScroll = () => { 
@@ -62,23 +64,24 @@ const Navbar = ({ reference, scrollToSection }) => {
         >
           EVENTS
         </div>
-         <div
-          className={`links link3 ${activeLink === 'sponsors' ? 'active' : ''}`}
-          onClick={() => {
-            handleSetActiveLink('sponsors');
-            scrollToSection(reference.sponser);
-          }}
-        >
-          SPONSORS
-        </div> 
+        
         <div
-          className={`links link4 ${activeLink === 'Glimpse' ? 'active' : ''}`}
+          className={`links link4 ${activeLink === 'glimpse' ? 'active' : ''}`}
           onClick={() => {
             handleSetActiveLink('glimpse');
             scrollToSection(reference.glimpse);
           }}
         >
           Glimpse
+        </div>
+        <div
+          className={`links link5 ${activeLink === 'teams' ? 'active' : ''}`}
+          onClick={() => {
+            handleSetActiveLink('teams');
+            navigate("/teams");  // ✅ Navigate to Teams page
+          }}
+        >
+          Teams
         </div>
       </Header>
     </div>

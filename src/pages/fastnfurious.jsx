@@ -46,7 +46,7 @@ function Sample() {
           <div className="container about0">
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
-            2 to 3 per team
+            1 to 2  per team
             </span>
           </div>
           <div className="container about1">

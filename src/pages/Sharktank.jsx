@@ -45,14 +45,14 @@ function Sample() {
             <span style={{ color: "FDC32D" }}>TEAM SIZE : </span>
             <span className="notbold" style={{ color: "white" }}>
               {" "}
-              1-2 Person{" "}
+              1-3 Person{" "}
             </span>
           </div>
           <br />
           <div className="container about1">
             <span style={{ color: "FDC32D" }}>FEES : </span>
             <span className="notbold" style={{ color: "white" }}>
-              49/- Per Person
+              49/- Per Team
             </span>
           </div>
           <br />

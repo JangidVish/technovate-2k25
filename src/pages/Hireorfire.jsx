@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./sample.css";
 // import hirefire from "./images/ipl.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/IplAuction.pdf";
+import rulebook from "../RuleBook/IPL.pdf";
 function Sample() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -75,11 +75,15 @@ const handleRuleBook = ()=>{
             <h6 className="prizeh">
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>1st </span>
-                <span style={{ color: "#563380" }}> Rs 1000/-</span>
+                <span style={{ color: "#563380" }}> Rs 5000/-</span>
               </h6>
               <h6 className="notbold prizeh">
                 <span style={{ color: "white" }}>2nd </span>
-                <span style={{ color: "#563380" }}> Rs 500/-</span>
+                <span style={{ color: "#563380" }}> Rs 3000/-</span>
+              </h6>
+              <h6 className="notbold prizeh">
+                <span style={{ color: "white" }}>3rd </span>
+                <span style={{ color: "#563380" }}> Rs 2000/-</span>
               </h6>
             </h6>
           </div>
@@ -87,6 +91,7 @@ const handleRuleBook = ()=>{
           <br></br>
           <br></br>
           <br /><br /><br /><br />
+          <br /> <br /> <br /> <br /> <br />
         </div>
         <div>
           <ul className="structureul">
@@ -119,11 +124,11 @@ const handleRuleBook = ()=>{
             <span>
               <h6 className=" deskcont" style={{ color: "white" }}>
               {" "}
-              95614 65973{" "}
+              9561465973{" "}
               </h6>
               <h6 className="notbold deskcont" style={{ color: "white" }}>
               {" "}
-              94229 25605{" "}
+              9422925605{" "}
               </h6>
             </span>
           </div>

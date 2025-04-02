@@ -63,7 +63,8 @@ const Footer = ({ reference, scrollToSection }) => {
         <section className="mb-6">
           <h3 className="text-lg font-semibold text-gray-200">Contact Us</h3>
           <p className="text-gray-400">Email: college@pccoer.in</p>
-          <p className="text-gray-400 mb-4">Phone: +91 73683583</p>
+          <p className="text-gray-400 mb-4">Phone: +91 9322577499</p>
+          <p className="text-gray-400 mb-4">Phone: +91 8010845623</p>
           <input
             type="email"
             className="w-full px-3 py-2 rounded-lg bg-purple-800 text-gray-200 border border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400"

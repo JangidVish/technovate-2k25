@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./sample.css";
 import techsangam from "./images/techsangam.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/MindBridge.pdf";
+import rulebook from "../RuleBook/BridgingMinds.pdf";
 // import { rule } from "postcss";
 
 function Sample() {

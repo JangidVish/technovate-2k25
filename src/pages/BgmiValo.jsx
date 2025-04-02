@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./sample.css";
 // import bgmi from "./images/bgmi.png";
 import blobPages from "../images/blob1.svg";
-import rulebook from "../RuleBook/MindMasters.pdf"
+import rulebook from "../RuleBook/Valorant.pdf"
 
 function Sample() {
   useEffect(() => {

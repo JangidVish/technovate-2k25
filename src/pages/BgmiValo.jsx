@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import "./sample.css";
 // import bgmi from "./images/bgmi.png";
 import blobPages from "../images/blob1.svg";
-<<<<<<< HEAD
+
 import rulebook from "../RuleBook/Valorant.pdf"
-=======
-import rulebook from "../RuleBook/Valorant.pdf";
->>>>>>> 225508ec9515665e8b64f482679e4f520e60b0b8
+
+// import rulebook from "../RuleBook/Valorant.pdf";
 
 function Sample() {
   useEffect(() => {
